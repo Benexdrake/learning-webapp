@@ -1,0 +1,20 @@
+.card {
+    padding: 20px;
+    border: 5px solid var(--color1);
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.card_title {
+    margin-bottom: 5px;
+    color: var(--color1);
+}
+
+.card_answer_block {
+    margin-bottom: 5px;
+}
+
+.card_answer {
+    margin-left: 5px;
+    color: var(--color1);
+}

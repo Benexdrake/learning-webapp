@@ -1,0 +1,811 @@
+{
+"thema": "Rechtliche Kompetenzen",
+"questions": [
+    {
+        "id":"1",
+        "question": "Auch natürliche und juristische Personen des Privatrechts können behören sein.",
+        "answer": ["Richtig", "Falsch"],
+        "check": [true, false]
+    },
+    {
+        "id":"2",
+        "question": "Außenwirkung bedeutet, dass...",
+        "answer": [
+            "Rechtswirkung ein außerhalb des öffentlichen Verwaltung stehendes Rechtssubjekt betrifft.",
+            "Ein Ort außerhalb des Behördengebäudes betroffen ist.",
+            "Die Entscheidung eine bestehende Rechtslage ändert."
+        ],
+        "check": [true, false,false]
+    },
+    {
+        "id":"3",
+        "question": "Bei der Einrichtung von Spielplätzen, Bibliotheken, Theatern, Zoos und Stadthallen handelt es sich um eine...",
+        "answer": [
+            "Pflichtaufgabe zur Erfüllung nach Weisung",
+            "Pflichtige Selbstverwaltungsaufgabe",
+            "Staatliche Auftragsangelegenheit",
+            "Freiwillige Selbstverwaltungsaufgabe"
+        ],
+        "check": [false,false,false,true]
+    },
+    {
+        "id":"4",
+        "question": "Bei einer gebundenen Einzelfalleintscheidung ist grundsätzlich keine Verhältnismäßigkeit zu prüfen.",
+        "answer": ["Richtig", "Falsch"],
+        "check": [true, false]
+    },
+    {
+        "id":"5",
+        "question": "Bei welchem Wort handelt es sich um einen unbestimmten Rechtsbegriff",
+        "answer": ["Kilometer", "Zuverlässigkeit", "Montag"],
+        "check": [false,true, false]
+    },
+    {
+        "id":"6",
+        "question": "Bei welcher Rechtsfolge kann die Behörde selbst entscheiden ob und gegebenenfalls wie sie handelt.",
+        "answer": ["Ermessungsentscheidung", "Gebundene Entscheidung"],
+        "check": [true,false]
+    },
+    {
+        "id":"7",
+        "question": "das Verhältnis zwischen welchen Parteien regelt das öffentliche Recht?",
+        "answer": ["Zwischen Bürger und Staat","Zwischen Bürger und Bürger"],
+        "check": [true,false]
+    },
+    {
+        "id":"8",
+        "question": "Das Verwaltungsverfahren entsprechend dem Verwaltungsverfahrensgesetz umfasst insbesondere welche Teilbereiche?",
+        "answer": ["Dienstanweisung und Außenwirkung","Realakt und Verwaltungsvorschrift","Verwaltungsakt und öffentlich-rechtlicher Vertrag"],
+        "check": [false,false,true]
+    },
+    {
+        "id":"9",
+        "question": "das Verwaltungsverfahrensgesetz ist vorrangig vor anderen Gesetzen anzuwenden.",
+        "answer": ["Falsch", "Richtig"],
+        "check": [true, false]
+    },
+    {
+        "id":"10",
+        "question": "Der Grundsatz der Rechtmäßigkeit der Verwaltung leitet sich aus dem Rechtsstaatsprinzip ab.",
+        "answer": ["Falsch", "Richtig"],
+        "check": [false,true]
+    },
+    {
+        "id":"11",
+        "question": "Der Landrat führt als untere staatliche Verwaltungsbehörde die Aufsicht über die kreisangehörigen Gemeinden. Dies nennt man...",
+        "answer": ["Organleihe","Gremiumkompetenz","Vollzugkauf","Instanzmiete"],
+        "check": [true,false,false,false]
+    },
+    {
+        "id":"12",
+        "question": "Die Garantie der Allzuständigkeit besagt, dass...",
+        "answer": [
+            "Gemeinden fachlich für alle örtlichen und überörtlichen Fragen zuständig sind.",
+            "Gemeinden über einen feststehenden, grundgesetzlich garantierten Aufgabenkatalog verfügen.",
+            "Gemeinden für örtliche Angelegenheiten grundsätzlich zuständig sind."
+        ],
+        "check": [false,false,true]
+    },
+    {
+        "id":"13",
+        "question": "Die Gemeinde muss diese Aufgabe durchführen. Bei der Art und Weise erhält sie teilweise Weisungen durch staatliche Behörden. Diese Aufgabe nennt mann:",
+        "answer": [
+            "Freiwillige Aufgaben zur Erfüllng nach Weisung",
+            "Landesstaatliche Auftragsangelegenheiten zur Erfüllung nach Weisung",
+            "Bundesstaatliche Auftragsangelegenheiten zur Erfüllung nach Weisung",
+            "Pflichtaufgaben zur Erfüllung nach Weisung"],
+        "check": [false,false,false,true]
+    },
+    {
+        "id":"14",
+        "question": "Die Gemeinde muss eine Aufgabe wahrnehmen, die Ausgestaltung dieser bleibt jedoch vollständig in ihrem Ermessen. Diese Aufgabe nennt man:",
+        "answer": [
+            "Pflichtige Selbstverwaltungsaufgabe",
+            "Pflichtaufgabe zur Erfüllung nach Weisung",
+            "Freiwillige Selbstverwaltungsaufgabe",
+            "Staatliche Auftragsangelegenheit"
+        ],
+        "check": [true,false,false,false]
+    },
+    {
+        "id":"15",
+        "question": "Die institutionelle Garantie stellt sicher, dass...",
+        "answer": [
+            "es Gemeinden als Institutionen gibt.",
+            "es innerhalb von Gemeinden Institutionen gibt.",
+            "einzelne Gemeinden nicht aufgelöst werden.",
+            "Gebietsänderungen regelmäßig durchgeführt werden."
+        ],
+        "check": [true,false,false,false]
+    },
+    {
+        "id":"16",
+        "question": "Die Regelkompetenz erlaubt den Gemeinden,",
+        "answer": [
+            "grundsätzlich alle Bundesangelegenheuten durch Satzung zu regeln",
+            "Formelle Gesetze (Satzungen) zu erlassen.",
+            "Angelegenheiten durch eigenes Recht (Satzungen) zu regeln.",
+            "vom Gesetzgeber vorgeschriebene (Pflichtsatzungen) zu erlassen."
+        ],
+        "check": [false,false,true,false]
+    },
+    {
+        "id":"17",
+        "question": "Die Stadt Düsseldorf ordnet an, dass der Bauherr die Baustelle ausreichend sichern muss. Handelt die Behörde privatrechtlich oder öffentlich-rechtlich?",
+        "answer": [
+            "Privatrechtliche Handlung",
+            "Öffentlich-rechtliche Handlung"
+        ],
+        "check": [false, true]
+    },
+    {
+        "id":"18",
+        "question": "Ein Berügerbegehren ist die Möglichkeit der Bürgschaft...",
+        "answer": [
+            "in eigenen Angelegenheuten zu entscheiden.",
+            "anstelle des Rates zu entscheiden.",
+            "anstelle des Bürgermeisters zu entscheiden."
+        ],
+        "check": [false, true, false]
+    },
+    {
+        "id":"19",
+        "question": "In welchem Gesetz sind die grundsätzlichen Regeln des Verwaltungsverfahrens norminiert?",
+        "answer": [
+            "Verwaltungsbehördengesetz NRW",
+            "Bearbeitungsverordnung NRW",
+            "Wiedervorlagengesetz NRW",
+            "Verwaltungsverfahrengesetz NRW"
+        ],
+        "check": [false,false,false,true]
+    },
+    {
+        "id":"20",
+        "question": "In welchem Fall handelt es sich nicht um einen Verwaltungsakt?",
+        "answer": [
+            "Eine Beamtin wird befördert.",
+            "Eine Beamtin wird zu einer anderen Behörde versetzt.",
+            "Eine Beamtin muss ihren Dienst künftig in einem Großraumbüro verrichten"
+        ],
+        "check": [false,false,true]
+    },
+    {
+        "id":"21",
+        "question": "In welchem Fall ist eine Anhörung erforderlich",
+        "answer": [
+            "Verwaltungsakt ist feststellend.",
+            "Verwaltungsakt ist begünstigend",
+            "Verwaltungsakt soll widerrufen werden.",
+            "Verwaltungsakt greift in Rechte ein."
+        ],
+        "check": [false,false,false,true]
+    },
+    {
+        "id":"22",
+        "question": "In welchem Verwaltungsträger gibt es einen Oberbürgermeister?",
+        "answer": [
+            "Kreisfreie Stadt",
+            "Kommune",
+            "Große Stadt",
+            "Kreis"],
+        "check": [true,false,false,false]
+    },
+    {
+        "id":"23",
+        "question": "In welche Teile gliedert sich ein Rechtssatz?",
+        "answer": [
+            "Frage und Antwort",
+            "Tatbestand und Rechtsfolge"
+        ],
+        "check": [false,true]
+    },
+    {
+        "id":"24",
+        "question": "Mit welcher Theorie kann das öffentliche vom privaten Recht unterschieden werden?",
+        "answer": [
+            "Städtische Theorie",
+            "Differenzierungstheorie",
+            "Subordinationstheorie"
+        ],
+        "check": [false,false,true]
+    },
+    {
+        "id":"25",
+        "question": "Nur deutsche Staatsbürger können in einer Gemeinde das Wahlrecht bei Kommunalwahlen ausüben.",
+        "answer": ["Falsch","Richtig"],
+        "check": [true,false]
+    },
+    {
+        "id":"26",
+        "question": "Richtig oder Falsch? Die Gemeinde ist eine Gebrietskörperschaft.",
+        "answer": ["Falsch","Richtig"],
+        "check": [false,true]
+    },
+    {
+        "id":"27",
+        "question": "Richtig oder Falsch? Die Gemeinde ist eine juristische Person des öffentlichen Rechts.",
+        "answer": ["Falsch","Richtig"],
+        "check": [false,true]
+    },
+    {
+        "id":"28",
+        "question": "Wann liegt die Subordinationstheorie nach öffentlichem Recht vor?",
+        "answer": [
+            "Über- und Unterordnungsverhältnis zwischen Bürger und Behörde",
+            "Gleichordnungsverhältnis zwischen allen Beteiligten"
+        ],
+        "check": [true,false]
+    },
+    {
+        "id":"29",
+        "question": "Was bedeutet Entschießungsermessen?",
+        "answer": [
+            "Die Behörde hat Enscheidungsfreiheit ob sie tätig wird.",
+            "Der Behörde ist es überlassen wie sie tätig wird."
+        ],
+        "check": [true,false]
+    },
+    {
+        "id":"30",
+        "question": "Was besagt das Homogenitätsprinzip?",
+        "answer": [
+            "Landesverfassungen müssen den obersten Verfassungsgrundsätzen entsprechen.",
+            "Staatsgewalt ist auf den Gesamtstaat und die Bundesländer aufgeteilt, sodass es einer klaren Aufteilung der Kompetenzen zwischen beiden Ebenenen bedarf"
+        ],
+        "check": [true,false]
+    },
+    {
+        "id":"31",
+        "question": "Was gehört zu den Verfassungsgrundsätzen Deutschlands?",
+        "answer": [
+            "Sozialstaat, Einheitsstaat, Monarchie, Demokratie, Rechtsstaat",
+            "Sozialstaat, Bundesstaat, Republik, Demokratie, Rechtsstaat"
+        ],
+        "check": [false,true]
+    },
+    {
+        "id":"32",
+        "question": "Was gehört zu den Wahlgrundsätzen nach Art. 38 I Grundgesetz?",
+        "answer": [
+            "frei und ganzheitlich",
+            "freu und gerecht",
+            "frei und gleich"
+        ],
+        "check": [false,false,true]
+    },
+    {
+        "id":"33",
+        "question": "Was ist das freie Mandat der Abgeordneten nach Art. 38 I Grundgesetz?",
+        "answer": [
+            "Abgeordnete sind an Aufträgen und Weisungen ihrer Parteien gebunden",
+            "Abgeordnete sind an Aufträgen und Weisungen nicht gebunden, sondern nur ihrem Gewissen unterworfen."
+        ],
+        "check": [false,true]
+    },
+    {
+        "id":"34",
+        "question": "Was ist eine Enklave?",
+        "answer": [
+            "Ein Staatsteil eines Landes mit mindestens 300.000 Einwohnern.",
+            "Ein Staatsteil eines Landes, der vollständig in einem anderen Staat liegt.",
+            "Ein Staatsteil eines Landes, der an ein Ufer grenzt."
+        ],
+        "check": [false,true,false]
+    },
+    {
+        "id":"35",
+        "question": "Was ist heute das allgemein anerkannte Kriterium zur Bildung eines Staatsvolks?",
+        "answer": [
+            "Staatsangehörigkleit",
+            "Kultur",
+            "Sprache"
+        ],
+        "check": [true,false,false]
+    },
+    {
+        "id":"36",
+        "question": "Was ist kein formelles Gesetz?",
+        "answer": [
+            "Straßenverkehrsordnung",
+            "Verwaltungsverfahrensgesetz",
+            "Strafgesetzbuch"
+        ],
+        "check": [true,false,false]
+    },
+    {
+        "id":"37",
+        "question": "Was versteht man unter dem Abstammungsprinzip?",
+        "answer": [
+            "Ein Kind erhält bei der Geburt automatisch die Staatsbürgerschaft seiner Eltern.",
+            "Ein Kind erhält die Staatsbürgerschaft des Staates, in dem es geboren wurde."
+        ],
+        "check": [true,false]
+    },
+    {
+        "id":"38",
+        "question": "Was verstehen man unter dem Grundsatz vom Vorbehalt des Gesetzes?",
+        "answer": [
+            "Die Verwaltung darf nur aufgrund einer Ermächtigungsgrundlage handeln.",
+            "Die Verwaltung darf nicht gegen bestehendes Recht verstoßen."
+        ],
+        "check": [true,false]
+    },
+    {
+        "id":"39",
+        "question": "Was versteht man unter dem Grundsatz vom Vorrang des Gesetzes?",
+        "answer": [
+            "Die Verwaltung darf nicht gegen das Gesetz handeln.",
+            "Gesetze sind vorrangig vor Rechtsverordnungen anzuwenden."
+        ],
+        "check": [true,false]
+    },
+    {
+        "id":"40",
+        "question": "Welche 3 Elemente unterscheidet G. Jellinek zur Definition eines Staates?",
+        "answer": [
+            "Staatsgebiet, Staatsvolk, Staatsgewalt",
+            "Staatsgebiet, Staatsgemeintschaft, Staatsherrscher",
+            "Staatsgrund, Staatsoberhaupt, Staatsbürger"
+        ],
+        "check": [true,false,false]
+    },
+    {
+        "id":"41",
+        "question": "Welche Art des Einzelfalls regelt keinen Verwaltungsakt?",
+        "answer": [
+            "Generell-individuell",
+            "Abstrakt-generell",
+            "Konkret-individuell",
+            "Konkret-generell"
+        ],
+        "check": [false,true,false,false]
+    },
+    {
+        "id":"42",
+        "question": "Welche Art des Verwaltungshandelns ist nach außen gerichtet?",
+        "answer": [
+            "Dienstanweisung",
+            "Verwaltungsakt",
+            "Verwaltngsvorschriften"
+        ],
+        "check": [false,true,false]
+    },
+    {
+        "id":"43",
+        "question": "Welche Arten der Demokratie gibt es nicht?",
+        "answer": [
+            "vollkommende Demokratie",
+            "unmittelbare Demokratie",
+            "mittelbare Demokratie"
+        ],
+        "check": [true, false,false]
+    },
+    {
+        "id":"44",
+        "question": "Welche Aufgaben gehören nicht zu den Hauptaufgaben des Bundestags?",
+        "answer": [
+            "Gesetzgebung",
+            "Kontrolle der Bundesregierung",
+            "Wahlfunktion",
+            "Ausführung der Gesetze"
+        ],
+        "check": [false,false,false,true]
+    },
+    {
+        "id":"45",
+        "question": "Welche Aufgaben hat die Europäische Kommission?",
+        "answer": [
+            "Überprüfung der Einnahmen und Ausgaben der EU Institutionen",
+            "Festlegung der Geldpolitik der Union",
+            "Rechtsetzungsbefugnis",
+            "Impulssetzung für die Arbeit der Union und ihrer Entwicklung"
+        ],
+        "check": [false,false,true,false]
+    },
+    {
+        "id":"46",
+        "question": "Welche Aussage zum Verwaltungsakt ist richtig?",
+        "answer": [
+            "Bedarf keiner Zustimmung durch den Betroffenen.",
+            "Ergibt sich nur auf Antrag.",
+            "Ist immer zustimmungsbefürtig.",
+            "Ist lediglich eine Empfehlung und für Empfänger nicht bindend.",
+            "Ist mit Rechtsbehelfen nicht anfechtbar."
+        ],
+        "check": [true,false,false,false,false]
+    },
+    {
+        "id":"47",
+        "question": "Welche der folgenden Aussagen ist richtig?",
+        "answer": [
+            "Alle Kreise sind Gemeinden",
+            "Alle Gemeinden sind Kommunen",
+            "Alle Kommunen sind Gemeinden",
+            "Alle Gemeinden sind Kreise"
+        ],
+        "check": [false,true,false,false]
+    },
+    {
+        "id":"48",
+        "question": "Welche der folgenden Aussagen ist wahr?",
+        "answer": [
+            "Jeder Einwohner ist auch Bürger, aber nicht jeder Bürger ist auch Einwohner.",
+            "Jeder Bürger hat ein Kommunalwahlrecht, und nur jeder zweite Einwohner hat ein Kommunalwahlrecht.",
+            "Jeder Einwohner hat ein Kommunalwahlrecht, aber nicht jeder Bürger hat ein Kommunalwahlrecht.",
+            "Jeder Bürger ist auch Einwohner, aber nicht jeder Einwohner ist auch Bürger."
+        ],
+        "check": [false,false,false,true]
+    },
+    {
+        "id":"49",
+        "question": "Welche der folgenden Aussagen zum Kommunalrecht in NRW sind richtig?",
+        "answer": [
+            "Die Gemeinden haben keine eigenen Finanzmittel.",
+            "Die Gemeinden unterstehen direkt der Landesregierung.",
+            "Die Gemeinden haben keinerlei Befugnisse und sind nur Ausführungsorgan des Bundes.",
+            "Die Gemeinden werden von den Bezirksregierungen verwaltet.",
+            "Die Gemeinden sind eigenständige Gebietskörperschaften mit eigenen Recht und Pflichten."
+        ],
+        "check": [false,false,false,false,true]
+    },
+    {
+        "id":"50",
+        "question": "Welche Ermessensfehler gibt es?",
+        "answer": [
+            "Ermessensausdehnungen, Ermessensunterschreitung, Ermessensfehlgebrauch",
+            "Ermessensüberschreitung, Ermessensunterschreitung, Ermessensfehlgebrauch"
+        ],
+        "check": [false,true]
+    },
+    {
+        "id":"51",
+        "question": "Welche Frist gilt, wenn eine Rechtsbehelfsbelehrung fehlerhaft ist?",
+        "answer": ["Monatsfrist","Wochenfrist","Jahresfrist"],
+        "check": [false,false,true]
+    },
+    {
+        "id":"52",
+        "question": "Welche Grundprinzipien beinhaltet das Rechtsstaatsprinzip?",
+        "answer": [
+            "Gewaltenteilung, staatliche Begrenzung, Rechtsgleichheit, Rechtsschutz, Gewährung von Grundrechten",
+            "Gewaltenteilung, Rechtssicherheit, Rechtsgleichheit, Rechtsschutz, Gewährung von Grundrechten"
+        ],
+        "check": [false,true]
+    },
+    {
+        "id":"53",
+        "question": "Welche Handlungsform liegt vor, wenn eine Gaststättenerlaubnis erteilt wird?",
+        "answer": ["Verwaltungsakt","Realakt / kein Verwaltungsakt"],
+        "check": [true,false]
+    },
+    {
+        "id":"54",
+        "question": "Welche Handlungsform liegt vor, wenn einer Person ein Wohngeldantrag ausgehändigt wird?",
+        "answer": ["Realakt / kein Verwaltungsakt","Verwaltungsakt"],
+        "check": [true,false]
+    },
+    {
+        "id":"55",
+        "question": "Welche Handlungsform liegt vor, wenn ein Polizist den Verkehr per Handzeichen regelt?",
+        "answer": ["Verwaltungsakt","Realakt / kein Verwaltungsakt"],
+        "check": [true,false]
+    },
+    {
+        "id":"56",
+        "question": "Welche Handlungsform liegt vor, wenn jemand zur Teilnahme an einer medizinischen Untersuchtung zur Feststellung der Fahrtauglichkeit eingeladen wird?",
+        "answer": ["Realakt / kein Verwaltungsakt", "Verwaltungsakt"],
+        "check": [true,false]
+    },
+    {
+        "id":"57",
+        "question": "Welche Hauptaufgaben hat das Bundesverfassungsgericht?",
+        "answer": [
+            "Wacht über die Einhaltung des Grundgesetzes",
+            "Wirkt in Angelegenheiten der Europäischen Union mit",
+            "Wirkt bei der Gesetzgebung mit"
+        ],
+        "check": [true,false,false]
+    },
+    {
+        "id":"58",
+        "question": "Welche Hauptaufgaben hat die Bundesregierung?",
+        "answer": [
+            "Mitwirkung in Angelegenheiten der Europäischen Union",
+            "Erlass von formellen Gesetzen",
+            "Ausführung der Gesetze"
+        ],
+        "check": [false,false,true]
+    },
+    {
+        "id":"59",
+        "question": "Welche Inhalte können in einer gemeindlichen Satzung geregelt werden?",
+        "answer": [
+            "Regelungen zu Angelegenheiten der örtlichen Gemeinschaft",
+            "Regelungen zur nationalen Sicherheit und Verteidigung",
+            "Regelungen die Bundes- und Landesgesetzen entgegenlaufen"
+        ],
+        "check": [true,false,false]
+    },
+    {
+        "id":"60",
+        "question": "Welche Möglichkeiten haben die Einwohner einer Gemeinde in NRW, um ihre Anliegen und Interessen gegenüber der Gemeindevertretung zu vertreten?",
+        "answer": [
+            "Durch Mitgliedschaft in der Bezirksregierung.",
+            "Durch Stellung eines Einwohnerantrags.",
+            "Durch direkte Wahl des Bürgermeisters.",
+            "Durch Ernennung zum Landrat.",
+            "Durch Teilnahe an Landtagswahlen"
+        ],
+        "check": [false,true,false,false,false]
+    },
+    {
+        "id":"61",
+        "question": "Welcher Begriff ist nicht Teil der kommunalen Selbstverwaltungsgarantie?",
+        "answer": [
+            "Garantie der Selbstverwaltungshoheit",
+            "Existenzgarantie",
+            "Garantie der Allzuständigkeit",
+            "Garantie des Satzungsrechts",
+            "Garantie der Selbstständigkeit"
+        ],
+        "check": [false,false,false,false,true]
+    },
+    {
+        "id":"62",
+        "question": "Welche Rechte haben die Einwohner einer Gemeinde nach der Gemeindeordnung in NRW nicht?",
+        "answer": [
+            "Das Recht auf finanzielle Unterstützung bei Bedürtigkeit.",
+            "Das Recht auf freie Meinungsäußerung und Versammlungsfreiheit.",
+            "Das Recht auf Beteligung an kommunalen Entscheidungen durch Bürgerbegehren und Bürgerentscheid.",
+            "Das Recht auf Zugang zu allen kommunalen Einrichtungen."
+        ],
+        "check": [false,false,true,false]
+    },
+    {
+        "id":"63",
+        "question": "Welche Rechtsbehelfe stehen gegen einen Verwaltungsakt grundsätzlich zur Verfügung?",
+        "answer": [
+            "Widerruf und Revision",
+            "Widerspruch und Klage",
+            "Widerruf und Klage",
+            "Widerspruch und Revision"
+        ],
+        "check": [false,true,false,false]
+    },
+    {
+        "id":"64",
+        "question": "Welche Rechtsgrundlage ist dem Rang nach am höchsten?",
+        "answer": [
+            "Formelles Gesetz",
+            "Satzung",
+            "Rechtsverordnung"
+        ],
+        "check": [true,false,false]
+    },
+    {
+        "id":"65",
+        "question": "Welche Regelungswirkung haben Verwaltungsvorschriften?",
+        "answer": [
+            "Nur im Innenverhältnis für Bedienstete.",
+            "Nur im Außenverhältnis für die Bürgerschaft."
+        ],
+        "check": [true,false]
+    },
+    {
+        "id":"66",
+        "question": "Welcher Staatsgewalt ist eine Gemeinde zuzuordnen?",
+        "answer": [
+            "Judikative",
+            "Legislative",
+            "Exekutive"
+        ],
+        "check": [false,false,true]
+    },
+    {
+        "id":"67",
+        "question": "Welches Bundesorgan gehört die Legislative?",
+        "answer": [
+            "Bundesverfassungsgericht",
+            "Bundesrat",
+            "Bundestag"
+        ],
+        "check": [true,false,false]
+    },
+    {
+        "id":"68",
+        "question": "Welches Organ der Europäischen Union ist das Leitungsorgan der EU?",
+        "answer": [
+            "Europäischer Rat",
+            "Europäische Zentralbank",
+            "Europäischer Gerichtshof"
+        ],
+        "check": [true,false,false]
+    },
+    {
+        "id":"69",
+        "question": "Welches Organ einer Gemeinde in NRW ist für die Ausübung des Selbstverwaltungsrechts zuständig?",
+        "answer": [
+            "Der Rat der Gemeinde",
+            "Der Regierungspräsident",
+            "Die Bezirksregierung",
+            "Der Bürgermeister",
+            "Der Landrat"
+        ],
+        "check": [true,false,false,false,false]
+    },
+    {
+        "id":"70",
+        "question": "Welches Thema zählt nicht zur Daseinsversorge?",
+        "answer": [
+            "Gesundheitswesen",
+            "Kultur",
+            "Bildungswesen",
+            "Sicherheit",
+            "Glücksspiel"
+        ],
+        "check": [false,false,false,false,true]
+    },
+    {
+        "id":"71",
+        "question": "Welche Stimme hat bei der Bundestagswahl die entscheidendere Bedeutung?",
+        "answer": [
+            "Erststimme",
+            "Erst- und Zweitstimme",
+            "Zweitstimme"
+        ],
+        "check": [false,false,true]
+    },
+    {
+        "id":"72",
+        "question": "Welches Wahlsystem gibt es bei der Bundestagswahl?",
+        "answer": [
+            "Personalisierte Mehrheitswahl",
+            "Personalisierte Verhältniswahl",
+            "Mehrheitswahl"
+        ],
+        "check": [false,true,false]
+    },
+    {
+        "id":"73",
+        "question": "Wer gehört zur Bundesregierung",
+        "answer": [
+            "Bundeskanzler und Bundespräsident",
+            "Bundeskanzler und Minister",
+            "Bundespräsident und Minister"
+        ],
+        "check": [false,true,false]
+    },
+    {
+        "id":"74",
+        "question": "Wer kann nicht beteiligte Person im Verwaltungsverfahren sein?",
+        "answer": [
+            "Diejenigen, an die die Behörde den Verwaltungsakt richten will oder gerichtet hat",
+            "Antragssteller und Antragsgegner",
+            "Diejenigen, die Entscheidungen in eigenen Angelegenheiten treffen"
+        ],
+        "check": [false,false,true]
+    },
+    {
+        "id":"75",
+        "question": "Wer wählt den Bundespräsidenten?",
+        "answer": [
+            "Bundesversammlung",
+            "Bundesrat",
+            "Bundestag"
+        ],
+        "check": [false,false,true]
+    },
+    {
+        "id":"76",
+        "question": "Wie ist der Begriff Bürger definiert?",
+        "answer": [
+            "Bürger ist jeder, der in der Gemeinde wohnt",
+            "Bürger ist jeder, der zu den Gemeindewahlen wahlberechtigt ist",
+            "Bürger ist jeder, der in der Gemeinde gemeldet ist"
+        ],
+        "check": [false,true,false]
+    },
+    {
+        "id":"77",
+        "question": "Wie ist der Begriff Einwohner definiert?",
+        "answer": [
+            "Einwohner ist jeder, der sich in der Gemeinde aufhält",
+            "Einwohner ist jeder, der in der Gemeinde wohnt",
+            "Einwohner ist jeder, der zu den Gemeindewahlen wahlberechtigt ist"
+        ],
+        "check": [false,true,false]
+    },
+    {
+        "id":"78",
+        "question": "Wie nennt man die Möglichkeit der Gemeinde, den Aufbau und Ablauf der Verwaltung sowie der politischen Organe selbst zu gestalten zu dürfen?",
+        "answer": [
+            "Organisationshoheit",
+            "Planungshoheit",
+            "Personalhoheit",
+            "Gebietshoheit"
+        ],
+        "check": [true,false,false,false]
+    },
+    {
+        "id":"79",
+        "question": "Wie setzt sicht der Bundesrat zusammen?",
+        "answer": [
+            "durch gewählte Vertreter in der Bundesratswahl",
+            "durch die Bundesratsabgeordneten",
+            "durch die Vertretung der Regierung der Bundesländer"
+        ],
+        "check": [false,false,true]
+    },
+    {
+        "id":"80",
+        "question": "Wie viele Merkmale hat der Verwaltungsakt nach § 35 Satz 1 VwVfG NRW?",
+        "answer": ["5","6","4","7"],
+        "check": [false,true,false,false]
+    },
+    {
+        "id":"81",
+        "question": "Wie werden die Mitglieder des Rates einer Gemeinde in NRW gewählt?",
+        "answer": [
+            "durch die Bezirksregierung",
+            "durch den Landrat",
+            "durch das Landesparlament",
+            "durch den Regierungspräsident",
+            "durch die Bürger der Gemeinde"
+        ],
+        "check": [false,false,false,false,true]
+    },
+    {
+        "id":"82",
+        "question": "Wie wird der Landrat eines Kreises in NRW gewählt?",
+        "answer": [
+            "durch den Landrat",
+            "durch die Bezirksregierung",
+            "durch die Bürger des Kreises",
+            "durch den Regierungspräsidenten",
+            "durch das Landesparlament"
+        ],
+        "check": [false,false,true,false,false]
+    },
+    {
+        "id":"83",
+        "question": "Wobei handelt es sich um eine Maßnahem der Eingriffsverwaltung?",
+        "answer": [
+            "Auskunft über die Eintrittspreise des Schwimmbads",
+            "Auskunft über Öffnungszeiten",
+            "Schließung eines Gewerbebetriebes"
+        ],
+        "check": [false,false,true]
+    },
+    {
+        "id":"84",
+        "question": "Wo endet das Staatsgebiet nach der Definition von G. Jellinek?",
+        "answer": [
+            "dort, wo das Meer beginnt",
+            "dort, wo die Beherrschbarkeit endet",
+            "im Luftraum"
+        ],
+        "check": [false,true]
+    },
+    {
+        "id":"85",
+        "question": "Wo ist die Selbstverwaltungsgarantie verankert?",
+        "answer": [
+            "In Art. 20 Abs. 3 GG",
+            "In § 28 Abs. 2 GO NRW",
+            "In Art. 28 Abs. 2 GG",
+            "In § 20 Abs. 3 GO NRW"
+        ],
+        "check": [false,false,true,false]
+    },
+    {
+        "id":"86",
+        "question": "Zu welchem Rechtsbereich gehört das allgemeine Verwaltungsrecht?",
+        "answer": [
+            "Privates Recht",
+            "Besonderes Recht",
+            "Öffentliches Recht"
+        ],
+        "check": [false,false,true]
+    }
+]
+}
