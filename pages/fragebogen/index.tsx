@@ -11,7 +11,7 @@ export default function Fragebogen(params:any) {
       <h1 className={styles.title}>{questions.thema}</h1>
       <div>
         {questions.questions.map((x:any) => {
-          return (<FragebogenCard question={x}/>)
+          return (<FragebogenCard question={x} key={x.id}/>)
         })}
       </div>
     </div>
@@ -20,15 +20,19 @@ export default function Fragebogen(params:any) {
 
 export async function getServerSideProps(param:any)
 {
+  const proto = param.req.headers['x-forwarded-proto'];
   const id = param.query.id;
   let questions = [];
 
-  // https://learning-opal.vercel.app/fragebogen?id=1 in Production
+  // https://learning-opal.vercel.app in Production
 
   if(id != undefined)
-    questions = await fetch('https://learning-opal.vercel.app/api/fragebogen?id='+id).then(x => { return x.json() })
+  {
+    questions = await fetch(proto+'://'+param.req.headers.host+'/api/fragebogen?id='+id).then(x => { return x.json() })
+    //console.log(id)
+  }
   else
-    questions = await fetch('https://learning-opal.vercel.app/api/fragebogen?id=1').then(x => { return x.json() })
+    questions = await fetch(proto+'://'+param.req.headers.host+'/api/fragebogen?id=1').then(x => { return x.json() })
 
 
   return {

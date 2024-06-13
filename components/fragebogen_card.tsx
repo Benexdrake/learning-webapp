@@ -5,7 +5,7 @@ export default function FragebogenCard(params:any)
 {
     let question = params.question;
 
-    let [borderColor, setBorderColor] = useState('');
+    let [borderColor, setBorderColor] = useState('var(--color1)');
 
     
 
@@ -28,7 +28,7 @@ export default function FragebogenCard(params:any)
             </h3>
             {question.answer.map((x:any, i:any) => {
                 return (
-                    <div className={styles.card_answer_block}>
+                    <div className={styles.card_answer_block} key={question.answer[i] +  question.id}>
                         <label>
                             <input type='radio' name={question.id} onClick={handleClick} value={i} className={styles.checkmark}/>
                             <span className={styles.card_answer}>{x}</span>
