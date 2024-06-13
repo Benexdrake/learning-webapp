@@ -28,11 +28,13 @@ export default function FragebogenCard(params:any)
             </h3>
             {question.answer.map((x:any, i:any) => {
                 return (
-                        <label className={styles.card_answer_block}>
-                            <input type='radio' name={question.id} onClick={handleClick} value={i}/>
+                    <div className={styles.card_answer_block}>
+                        <label>
+                            <input type='radio' name={question.id} onClick={handleClick} value={i} className={styles.checkmark}/>
                             <span className={styles.card_answer}>{x}</span>
                             <br />
                         </label>
+                    </div>
                 )
             })}
             </div>

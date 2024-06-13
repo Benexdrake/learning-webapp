@@ -4,6 +4,7 @@ import styles from '@/styles/fragebogen.module.css'
 
 export default function Fragebogen(params:any) {
   const questions = params.questions;
+
   
   return (
     <div>
@@ -21,6 +22,8 @@ export async function getServerSideProps(param:any)
 {
   const id = param.query.id;
   let questions = [];
+
+  // https://learning-opal.vercel.app/fragebogen?id=1 in Production
 
   if(id != undefined)
     questions = await fetch('https://learning-opal.vercel.app/api/fragebogen?id='+id).then(x => { return x.json() })

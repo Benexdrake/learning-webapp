@@ -8,13 +8,25 @@
 .card_title {
     margin-bottom: 5px;
     color: var(--color1);
+    font-size: 1.4rem;
 }
 
 .card_answer_block {
-    margin-bottom: 5px;
+    padding-bottom: 5px;
 }
 
 .card_answer {
     margin-left: 5px;
     color: var(--color1);
+    font-size: 1.4rem;
 }
+
+.checkmark {
+    position:relative;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
