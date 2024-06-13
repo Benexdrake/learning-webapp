@@ -23,9 +23,9 @@ export async function getServerSideProps(param:any)
   let questions = [];
 
   if(id != undefined)
-    questions = await fetch('http://localhost:3000/api/fragebogen?id='+id).then(x => { return x.json() })
+    questions = await fetch('https://learning-opal.vercel.app/api/fragebogen?id='+id).then(x => { return x.json() })
   else
-    questions = await fetch('http://localhost:3000/api/fragebogen?id=1').then(x => { return x.json() })
+    questions = await fetch('https://learning-opal.vercel.app/api/fragebogen?id=1').then(x => { return x.json() })
 
 
   return {
