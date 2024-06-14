@@ -1,22 +1,23 @@
 .card {
-    padding: 20px;
+    
     border: 5px solid var(--color1);
     border-radius: 10px;
     margin-bottom: 5px;
+    background-color: var(--color5);
 }
 
 .card_title {
-    margin-bottom: 5px;
+    padding: 20px;
     color: var(--color1);
     font-size: 1.4rem;
 }
 
 .card_answer_block {
-    padding-bottom: 5px;
+    padding: 20px;
 }
 
 .card_answer {
-    margin-left: 5px;
+    padding: 20px;
     color: var(--color1);
     font-size: 1.4rem;
 }

@@ -51,8 +51,7 @@
             "answer": [
                 "ein Zustand ohne Bürokratie.",
                 "der optimale Zustand zwischen Über- und Unterorganisation.",
-                "ein Zustand, der zwar für die Bürger positiv, für die Mitarbeiter jedoch ungünstig ist.",
-                ""
+                "ein Zustand, der zwar für die Bürger positiv, für die Mitarbeiter jedoch ungünstig ist."
             ],
             "check": [false,true,false,false]
         },
