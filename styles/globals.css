@@ -12,6 +12,7 @@
   
 body {
   background-color: var(--color3);
+  font-family: 'Kdam Thmor Pro', sans-serif;
 }
 .main {
   max-width: 1200px;
