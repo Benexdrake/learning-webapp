@@ -2,10 +2,524 @@
     "thema": "Betriebs-/Finanzwirtschaftliche Kompetenzen",
     "questions": [
         {
-            "id":"",
-            "question": "",
-            "answer": [],
-            "check": []
+            "id":"1",
+            "question": "Bei den Zielen in der Verwaltung kennen wir u.a. die sogenannten Sachziele. Unter Sachzielen versteht man:",
+            "answer": [
+                "wirtschaftliches Handeln der Verwaltung",
+                "interne Aufgaben der Verwaltung",
+                "externe Aufgaben der Verwaltung",
+                "die eigentlichen Aufgaben der Verwaltung"
+            ],
+            "check": [false,false,false,true]
+        },
+        {
+            "id":"2",
+            "question": "Bei der Anwendung des Organisatorischen Minimums...",
+            "answer": [
+                "wird der Dienstweg verkürzt.",
+                "wird die Anzahl der Hierarchieebenenen verkleinert.",
+                "wird die Gliederungstiefe verkleinert.",
+                "werden Leitungsstellen auf einer Hierarchieebene eingespart."
+            ],
+            "check": [false,true,false,false]
+        },
+        {
+            "id":"3",
+            "question": "Benennen Sie die drei gewöhnlichen Phasen (Ebenen) des kommunalen Haushalts",
+            "answer": [
+                "Ergebnisrechnung - Bilanz - Finanzrechnung",
+                "Kämmerei - Stadtkasse - Rechnungsprüfungsamt",
+                "Produkte - Produktgruppen - Produktbereiche",
+                "Planung - Durchführung - Kontrolle"
+            ],
+            "check": [false,false,false,true]
+        },
+        {
+            "id":"4",
+            "question": "Das Leistungsverhalten des Menschen in der Verwaltung ist das produkt aus:",
+            "answer": [
+                "freundliches Verhalten der Mitarbeiter den Bürgern gegenüber.",
+                "Jahresarbeitszeit-Urlaubstage und täglicher Arbeitszeit in Stunden",
+                "Arbeitszeit und Motivation",
+                "Leistungsvermögen und Leistungsbereitschaft"
+            ],
+            "check": [false,false,false,true]
+        },
+        {
+            "id":"5",
+            "question": "Das organisatorische Gleichgewicht ist...",
+            "answer": [
+                "ein Zustand ohne Bürokratie.",
+                "der optimale Zustand zwischen Über- und Unterorganisation.",
+                "ein Zustand, der zwar für die Bürger positiv, für die Mitarbeiter jedoch ungünstig ist.",
+                ""
+            ],
+            "check": [false,true,false,false]
+        },
+        {
+            "id":"6",
+            "question": "Der Abfluss von Bar- oder Giralgeld bei einer Gemeindekasse nennt man auch",
+            "answer": [
+                "Aufwand",
+                "Auszahlung",
+                "Ausgabe",
+                "Kosten"
+            ],
+            "check": [false,true,false,false]
+        },
+        {
+            "id":"7",
+            "question": "Den Zufluss von Bar- oder Giralgeld bei einer Gemeindekasse nennt man auch",
+            "answer": [
+                "Einzahlung",
+                "Erlös",
+                "Einnahme",
+                "Ertrag"
+            ],
+           "check": [true,false,false,false]
+        },
+        {
+            "id":"8",
+            "question": "Der Finanzplan hat unmittelbare Auswirkung auf das Eigenkapital der Kommune.",
+            "answer": [
+                "Richtig",
+                "Falsch"
+            ],
+           "check": [false,true]
+        },
+        {
+            "id":"9",
+            "question": "Der Haushaltsplan ist stets von der Aufsichtsbehörde zu genehmigen.",
+            "answer": [
+                "Falsch",
+                "Richtig"
+            ],
+           "check": [true,false]
+        },
+        {
+            "id":"10",
+            "question": "Die Darstellung der Aufbauorganisation erfolgt mit Hilfe von",
+            "answer": [
+                "Anagrammen",
+                "Autogrammen",
+                "Programmen",
+                "Ornanigrammen"
+            ],
+           "check": [false,false,false,true]
+        },
+        {
+            "id":"11",
+            "question": "Die Einführung eines langen Dienstleistungsabends in der Verwaltung führt zu",
+            "answer": [
+                "Zielharmonie.",
+                "stellt vorraussichtlich einen Zielkonflikt dar.",
+                "betrifft keine der bekannten Zielbeziehungen"
+            ],
+           "check": [false,true,false,false]
+        },
+        {
+            "id":"12",
+            "question": "Ordnen Sie folgenden Geschäftsvorfall zu. Die Gemeinde bestellt ein neues Fahrzeug.",
+            "answer": [
+                "einen Aufwand",
+                "eine Auszahlung",
+                "weder Auszahlung noch Aufwand"
+            ],
+           "check": [false,false,true]
+        },
+        {
+            "id":"13",
+            "question": "Ordnen Sie folgenden Geschäftsvorfall zu. Die Gemeinde plant eine Steuer zu erheben",
+            "answer": [
+                "Ertrag",
+                "kein Ertrag und keine Einzahlung",
+                "Einzahlung"
+            ],
+           "check": [false,true,false]
+        },
+        {
+            "id":"14",
+            "question": "Die Hauptaufgabe einer Stabsstelle ist",
+            "answer": [
+                "die Beratung der Mitarbeiter in der Linien-Organisation",
+                "die Beratung und Unterstützung der angegliederten Führungskraft",
+                "das Treffen von Entscheidungen"
+            ],
+           "check": [false,true,false]
+        },
+        {
+            "id":"15",
+            "question": "Die öffentliche Finanzwirtschaft strebt innerhalb der Aufgabenerledigung die Gewinnmaximierung an.",
+            "answer": [
+                "Falsch",
+                "Richtig"
+            ],
+           "check": [true,false]
+        },
+        {
+            "id":"16",
+            "question": "Die Sach- und Formalziele in der Verwaltung",
+            "answer": [
+                "sollten im besten Fall in Zielharmonie zueinander stehen",
+                "sollten im Optimalfall in einem Zielgegensatz zueinander stehen",
+                "sollten in keiner Beziehung zueinander stehen"
+            ],
+           "check": [true,false,false]
+        },
+        {
+            "id":"17",
+            "question": "Die Wirksamkeit des Haushaltsplans ist von der Wirksamkeit der Haushaltssatzung abhängig.",
+            "answer": [
+                "Richtig",
+                "Falsch"
+            ],
+           "check": [true,false]
+        },
+        {
+            "id":"18",
+            "question": "Ein Element des Systems Verwaltung ist",
+            "answer": [
+                "die Landesregierung",
+                "die natürliche Umgebung in der Kommune",
+                "der Mensch",
+                "der Stadtrat"
+            ],
+           "check": [false,false,true,false]
+        },
+        {
+            "id":"19",
+            "question": "Eine Produktgruppe",
+            "answer": [
+                "besteht aus verwaltungsfremden Teilnehmern",
+                "besteht aus Teilnehmern, die z.B. für 2-3 Stunden pro Woche für das Projekt arbeiten",
+                "besteht aus Teilnehmern, die für das Projekt von ihren sonstigen Arbeiten freigestellt sind"
+            ],
+           "check": [false,false,true]
+        },
+        {
+            "id":"20",
+            "question": "Ein Projekt ist...",
+            "answer": [
+                "ein bestimmtes Ziel, welches erreicht werden sollte",
+                "eine zeitlich begrenzte, besondere Aufgabe",
+                "eine Aufgabe, an der man immer neben der laufenden Arbeit arbeitet"
+            ],
+           "check": [false,true,false]
+        },
+        {
+            "id":"21",
+            "question": "Ein Vorteil der Projektgruppe ist, dass...",
+            "answer": [
+                "sie kostengünstig ist",
+                "die Teilnehmer auch ihre sonstigen Aufgaben weiter erledigen können",
+                "sich die Teilnehmer voll auf die Arbeit im Projekt konzentrieren können"
+            ],
+           "check": [false,false,true]
+        },
+        {
+            "id":"22",
+            "question": "Ein wichtiges Formalziel der Verwaltung ist...",
+            "answer": [
+                "die Erfüllung der eigentlichen Aufgaben der Verwaltung",
+                "das organisatorische Gleichgewicht",
+                "die Umweltverträglichkeit/Nachhaltigkeit",
+                "Gewinn zu erwirtschaften"
+            ],
+           "check": [false,false,true]
+        },
+        {
+            "id":"23",
+            "question": "Für die Ein-Linien-Organisation ist es typisch, dass...",
+            "answer": [
+                "man mit jeweils einem Mitarbeiter mit einer Linie verbunden ist",
+                "man immer nur eine Vorgesetzten hat",
+                "alle Mitarbeiter durch eine Linie verbunden sind."
+            ],
+           "check": [false,true,false]
+        },
+        {
+            "id":"24",
+            "question": "Grundstück unterliegen keiner Abschreibung, da sie sich nicht abnutzen bzw. ihren Wert beibehalten.",
+            "answer": [
+                "Falsch",
+                "Richtig"
+            ],
+           "check": [false,true]
+        },
+        {
+            "id":"25",
+            "question": "Im organisatorischen Gleichgewicht gibt es",
+            "answer": [
+                "weder Unter- noch Überorganisation",
+                "häufig Unterorganisation",
+                "keine Organisation",
+                "viel Bürokratie"
+            ],
+           "check": [true,false,false,false]
+        },
+        {
+            "id":"26",
+            "question": "Jegliche Anschaffung von Anlagevermögen beschreibt eine",
+            "answer": [
+                "Investition",
+                "Ausgabe",
+                "Abschreibung",
+                "Eigenkapitalverschiebung"
+            ],
+           "check": [true,false,false,false]
+        },
+        {
+            "id":"27",
+            "question": "Mit einem Aufwand geht auch stets ein Geldmittelabfluss einher.",
+            "answer": [
+                "Falsch",
+                "Richtig"
+            ],
+           "check": [true,false]
+        },
+        {
+            "id":"28",
+            "question": "Mit Hilfe von Organigrammen...",
+            "answer": [
+                "können Entscheidungen in der Verwaltung getroffen werden",
+                "kann u.a. die Hierarchie in der Verwaltung graphisch dargestellt werden",
+                "kann die Kommunikation der Führungsebene mit darunterliegenden Hierarchieebenen verbessert werden"
+            ],
+           "check": [false,true,false]
+        },
+        {
+            "id":"29",
+            "question": "Nach der Anschaffung von Anlagevermögen wird dies regelmäßig...",
+            "answer": [
+                "abzüglich der Fördergelder als Anlagevermögen verbucht",
+                "abgeschrieben",
+                "neu bewertet",
+                "ins Eigenkapital gebucht"
+            ],
+           "check": [false,true,false,false]
+        },
+        {
+            "id":"30",
+            "question": "Typisch für die Mehrlinien-Organisation ist, dass...",
+            "answer": [
+                "nachgeordnete Stellen mehrere Führungskräfte/Vorgesetzte haben",
+                "jede Person innerhalb der Mehrlinien-Organisation über Linien mit anderen Personen verbunden ist",
+                "jede Person mit mehreren Kollegen über Linien verbunden ist"
+            ],
+           "check": [true,false,false]
+        },
+        {
+            "id":"31",
+            "question": "Unter dem Oberbegriff Ablauforganisation",
+            "answer": [
+                "werden die Arbeitsabläufe in der Verwaltung analysiert und optimiert",
+                "werden Organisationspläne erstellt",
+                "wird die Anzahl der Hierarchieebenen in der Verwaltung untersucht",
+                "werden Organigramme erstellt"
+            ],
+           "check": [true,false,false,false]
+        },
+        {
+            "id":"32",
+            "question": "Unter dem Oberbegriff Aufbauorganisation",
+            "answer": [
+                "werden u.a. Organisationspläne behandelt",
+                "geht es um das Organisatorische Gleichgewicht in der Verwaltung",
+                "werden die Arbeitsabläufe der Organisationseinheiten untersucht"
+            ],
+           "check": [true,false,false]
+        },
+        {
+            "id":"33",
+            "question": "Unter der Leitungsspanne versteht man",
+            "answer": [
+                "die Anzahl der einer Leitungs-/Führungsposition direkt unterstellten Stellen",
+                "die Gesamtheit der Kenntnisse einer Führungskraft",
+                "die Anzahl der Hierarchiebenenen, die einer Führungskraft unterstellt ist"
+            ],
+           "check": [true,false,false]
+        },
+        {
+            "id":"34",
+            "question": "Was bedeutet die Abkürzung NKF im kommunalen Bereich in NRW",
+            "answer": [
+                "Neues Kommunales Finanzwesen",
+                "Neues Kommunales Finanzmanagment",
+                "Neues Kirchliches Finanz- und Rechnungswesen",
+                "Niedersächsiches Kommunales Finanzwesen"
+            ],
+           "check": [false,true,false,false]
+        },
+        {
+            "id":"35",
+            "question": "Was bedeutet GWG als geringwertiges Wirtschaftsgut?",
+            "answer": [
+                "Ein Gegenstand des Umlaufvermögens, welches weniger als 800€ ohne Mehrwertsteuer wert ist",
+                "Ein Gegenstand der Aktivseite der Bilanz, welcher weniger als 1% der Bilanzsumme ausmacht",
+                "Ein Gegenstand des Anlagevermögens, welcher aufgrund seines geringen Wertes sofort abgeschrieben bzw. auf Aufwand verbucht werden darf",
+                "Ein Gegenstand des Anlagevermögens, welches weniger als 60€ wert ist und deswegen nicht im Intenvar geführt werden muss"
+            ],
+           "check": [false,false,true,false]
+        },
+        {
+            "id":"36",
+            "question": "Was besagt das Realisationsprinzip?",
+            "answer": [
+                "Das Prinzip besagt, dass Kommunen Realsteuern erheben dürfen",
+                "Das Prinzip besagt, dass eine Kommune Erträge und Aufwendungen veranschlagen darf",
+                "Das Prinzip regelt, wann ein Ertrag verbucht werden darf",
+                "Das Prinzip besagt, dass Einzahlungen tagesgenau verbucht werden"
+            ],
+           "check": [false,false,true,false]
+        },
+        {
+            "id":"37",
+            "question": "Was bezeichnet man im NKF als Kontenpaar?",
+            "answer": [
+                "Eine Investition mit der dazugehörigen Abschreibung",
+                "z.B. ein Ertrags- und Einzahlungskonto, welche den gleichen Sachverhalt abbildet und daher ab der zweiten Ziffer gleichnamig sind",
+                "Ein Ertrag, welcher eine bestimmme Aufwendung abdeckt",
+                "Die Verbindung zwischen Anlagevermögen und Sonderposten"
+            ],
+           "check": [false,true,false,false]
+        },
+        {
+            "id":"38",
+            "question": "Was ist das Bedarfsdeckungsprinzip im Kontext der kommunalen Finanzwirtschaft?",
+            "answer": [
+                "Einnahmen bzw. Erträge sollen die Ausgaben bzw. Aufwendungen decken",
+                "Gemeinde sollten im Sinne der Generationengerechtigkeit Überschüsse sammeln",
+                "Ausgaben sollen stets die Einnahmen übersteigen",
+                "Es besteht eine Pflicht zur Schuldentilgung"
+            ],
+           "check": [true,false,false,false]
+        },
+        {
+            "id":"39",
+            "question": "Welche Erträge besieren nicht auf öffentlich-rechtlicher Basis?",
+            "answer": [
+                "Abwassergebühren",
+                "Bußgelder",
+                "Gewerbesteuererträge",
+                "Mieterträge"
+            ],
+           "check": [false,false,false,true]
+        },
+        {
+            "id":"40",
+            "question": "Welche Rechnungsgrößen sind im Ergebnisplan zu erfassen?",
+            "answer": [
+                "Einnahmen und Ausgaben",
+                "Erlöse und Kosten",
+                "Erträge und Aufwendungen",
+                "Einzahlungen und Auszahlungen"
+            ],
+           "check": [false,false,true,false]
+        },
+        {
+            "id":"41",
+            "question": "Welche Rechnungsgrößen sind im Finanzplan zu erfassen?",
+            "answer": [
+                "Einzahlungen und Auszahlungen",
+                "Erlöse und Kosten",
+                "Einnahmen und Ausgaben",
+                "Erträge und Aufwendungen"
+            ],
+           "check": [true,false,false,false]
+        },
+        {
+            "id":"42",
+            "question": "Welches Ziel wird nicht mit der Einführung des Neuen Kommunalen Finanzmanagments verbunden?",
+            "answer": [
+                "Ausrichtung nach Zielen",
+                "Flexible Haushaltsführung",
+                "Inputorientierung",
+                "Generationengerechtigkeit"
+            ],
+           "check": [false,false,true,false]
+        },
+        {
+            "id":"43",
+            "question": "Wenn die Verwaltung Umweltpapier Recyclingpapier bei einem Lieferanten günstig einkauft als normales Papier (Frischfaserpapier) handelt es sich",
+            "answer": [
+                "um einen Zielgegensatz",
+                "um Zielharmonie",
+                "um einen Zielkonflikt"
+            ],
+           "check": [false,true,false]
+        },
+        {
+            "id":"44",
+            "question": "Wer führt die Kontrolle des Jahresabschlusses durch?",
+            "answer": [
+                "Stadtkasse",
+                "Kämmerei",
+                "Rechnungsprüfungsamt"
+            ],
+           "check": [false,false,true]
+        },
+        {
+            "id":"45",
+            "question": "Wie hieß das Haushaltssystem vor Einführung des NKF?",
+            "answer": [
+                "Einzelhaushalt",
+                "Kameralistik",
+                "Jährlichkeitsrechnung",
+                "Ressourcenverbrauchsprinzip"
+            ],
+           "check": [false,true,false,false]
+        },
+        {
+            "id":"46",
+            "question": "Wo werden Abschreibungen auf das abnutzbare Anlagevermögen veranschlagt?",
+            "answer": [
+                "Ergebnisplan",
+                "Finanz- und Ergebnisplan",
+                "Finanzplan"
+            ],
+           "check": [true,false,false]
+        },
+        {
+            "id":"47",
+            "question": "Wo wird die entgeltliche Anmietung eines Gebäudes veranschlagt?",
+            "answer": [
+                "Im Finanzplan als Auszahlung",
+                "Im Finanz- und Ergebnisplan als Aufwand, der eine Auszahlung nach sich zieht",
+                "Im Ergebnisplan als Aufwand"
+            ],
+           "check": [false,true,false]
+        },
+        {
+            "id":"48",
+            "question": "Wo wird die Tilgung eines Kredites veranschlagt?",
+            "answer": [
+                "Ergebnisplan",
+                "Finanz- und Ergebnisplan",
+                "Finanzplan"
+            ],
+           "check": [false,false,true]
+        },
+        {
+            "id":"49",
+            "question": "Ziele in der Verwaltung sollten u.a.",
+            "answer": [
+                "gewinnbringend sein",
+                "messbar sein",
+                "dauerhaft sein",
+                "kurzfristig sein"
+            ],
+           "check": [false,true,false,false]
+        },
+        {
+            "id":"50",
+            "question": "Zu den Elementen des Systems Verwaltung gehören auch die Aufgaben. Man spricht hier u.a. von Querschnittsaufgaben. Dies sind...",
+            "answer": [
+                "Aufgaben, die sowohl die Kommunalverwaltung als auch jeweils eine andere Behörde betreffen",
+                "Aufgaben, die mehrere Bereiche der Verwaltung betreffen",
+                "externe Aufgaben",
+                "interne Aufgaben"
+            ],
+           "check": [false,false,false,true]
         }
     ]
 }
