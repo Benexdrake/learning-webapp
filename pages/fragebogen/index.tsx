@@ -24,7 +24,6 @@ export async function getServerSideProps(param:any)
   const id = param.query.id;
   let questions = [];
 
-  // https://learning-opal.vercel.app in Production
 
   if(id != undefined)
   {
@@ -34,6 +33,8 @@ export async function getServerSideProps(param:any)
   else
     questions = await fetch(proto+'://'+param.req.headers.host+'/api/fragebogen?id=1').then(x => { return x.json() })
 
+    let q = questions.questions.sort((a:any, b:any) => 0.5 - Math.random());
+    questions.questions = q;
 
   return {
     props: {
