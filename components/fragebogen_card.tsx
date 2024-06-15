@@ -10,7 +10,6 @@ export default function FragebogenCard(params:any)
     
 
     const handleClick = (value:any) => {
-        console.log()
 
         if(question.check[value.target.value])
         {

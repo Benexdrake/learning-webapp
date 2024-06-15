@@ -28,7 +28,6 @@ export async function getServerSideProps(param:any)
   if(id != undefined)
   {
     questions = await fetch(proto+'://'+param.req.headers.host+'/api/fragebogen?id='+id).then(x => { return x.json() })
-    //console.log(id)
   }
   else
     questions = await fetch(proto+'://'+param.req.headers.host+'/api/fragebogen?id=1').then(x => { return x.json() })
