@@ -8,8 +8,8 @@ export default function Navbar()
             <div className={style.navbar_links}>
                 <ul>
                     <li><a href="/">Home</a></li>
-                    <li><a href="/fragebogen?id=1">Rechtliche Kompetenz</a></li>
-                    <li><a href="/fragebogen?id=2">Betriebs-/ Finanzwirtschaftliche Kompetenz</a></li>
+                    <li><a href="/fragebogen?id=1">Rechtliche K.</a></li>
+                    <li><a href="/fragebogen?id=2">Betriebs-/ Finanzw. K.</a></li>
                 </ul>
             </div>
     </nav>
