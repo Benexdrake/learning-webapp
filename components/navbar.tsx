@@ -10,6 +10,7 @@ export default function Navbar()
                     <li><a href="/">Home</a></li>
                     <li><a href="/fragebogen?id=1">Rechtliche K.</a></li>
                     <li><a href="/fragebogen?id=2">Betriebs-/ Finanzw. K.</a></li>
+                    <li><a href="/fragebogen?id=3">Multi</a></li>
                 </ul>
             </div>
     </nav>

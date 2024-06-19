@@ -1,18 +1,41 @@
-import FragebogenCard from "@/components/fragebogen_card";
+import FragebogenSingleCard from "@/components/fragebogen_single_card";
+import FragebogenMultiCard from "@/components/fragebogen_multi_card";
 import styles from '@/styles/fragebogen.module.css'
 
 
 export default function Fragebogen(params:any) {
   const questions = params.questions;
 
+
+  const handleQuestions = () =>
+  {
+    if(questions.type === "single")
+      {
+        return (
+          questions.questions.map((x:any) => {
+            return (<FragebogenSingleCard question={x} key={x.id}/>)
+          })
+        )
+      }
+    else
+    {
+      return (
+        questions.questions.map((x:any) => {
+          return (<FragebogenMultiCard question={x} key={x.id}/>)
+        })
+      )
+    }
+  }
+
   
   return (
     <div>
       <h1 className={styles.title}>{questions.thema}</h1>
       <div>
-        {questions.questions.map((x:any) => {
-          return (<FragebogenCard question={x} key={x.id}/>)
-        })}
+        
+        {handleQuestions()}
+        
+      
       </div>
     </div>
   );

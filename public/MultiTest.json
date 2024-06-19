@@ -1,0 +1,60 @@
+{
+    "thema": "Multi",
+    "type":"multi",
+    "questions": [
+        {
+            "id":"1",
+            "question": "Bei den Zielen in der Verwaltung kennen wir u.a. die sogenannten Sachziele. Unter Sachzielen versteht man:",
+            "answer": [
+                "wirtschaftliches Handeln der Verwaltung",
+                "interne Aufgaben der Verwaltung",
+                "externe Aufgaben der Verwaltung",
+                "die eigentlichen Aufgaben der Verwaltung"
+            ],
+            "check": [true,false,false,true]
+        },
+        {
+            "id":"2",
+            "question": "Bei der Anwendung des Organisatorischen Minimums...",
+            "answer": [
+                "wird der Dienstweg verkürzt.",
+                "wird die Anzahl der Hierarchieebenenen verkleinert.",
+                "wird die Gliederungstiefe verkleinert.",
+                "werden Leitungsstellen auf einer Hierarchieebene eingespart."
+            ],
+            "check": [false,true,true,false]
+        },
+        {
+            "id":"3",
+            "question": "Benennen Sie die drei gewöhnlichen Phasen (Ebenen) des kommunalen Haushalts",
+            "answer": [
+                "Ergebnisrechnung - Bilanz - Finanzrechnung",
+                "Kämmerei - Stadtkasse - Rechnungsprüfungsamt",
+                "Produkte - Produktgruppen - Produktbereiche",
+                "Planung - Durchführung - Kontrolle"
+            ],
+            "check": [false,true,false,true]
+        },
+        {
+            "id":"4",
+            "question": "Das Leistungsverhalten des Menschen in der Verwaltung ist das produkt aus:",
+            "answer": [
+                "freundliches Verhalten der Mitarbeiter den Bürgern gegenüber.",
+                "Jahresarbeitszeit-Urlaubstage und täglicher Arbeitszeit in Stunden",
+                "Arbeitszeit und Motivation",
+                "Leistungsvermögen und Leistungsbereitschaft"
+            ],
+            "check": [true,false,false,true]
+        },
+        {
+            "id":"5",
+            "question": "Das organisatorische Gleichgewicht ist...",
+            "answer": [
+                "ein Zustand ohne Bürokratie.",
+                "der optimale Zustand zwischen Über- und Unterorganisation.",
+                "ein Zustand, der zwar für die Bürger positiv, für die Mitarbeiter jedoch ungünstig ist."
+            ],
+            "check": [false,true,true,false]
+        }
+    ]
+}
