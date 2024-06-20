@@ -20,6 +20,7 @@ export default function Navbar() {
                             <optgroup label="Single Choice">
                                 <option value="1">Rechtliche Konsequenz</option>
                                 <option value="2">Betriebs-/ Finanzwirtschaftliche Konsequenz</option>
+                                <option value="3">Übungsfragen Strafrecht</option>
                             </optgroup>
                             <optgroup label="Multi Choice">
                                 <option value="3">Multi Test</option>

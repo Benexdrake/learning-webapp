@@ -1,0 +1,309 @@
+{
+    "thema": "Übungsfragen Strafrecht",
+    "type":"single",
+    "questions": [
+        {
+            "id":"1",
+            "question": "Wobei handelt es sich nicht um einen Verfassungsgrundsatz aus dem Art.20 GG?",
+            "answer": [
+                "Rechtsstaat",
+                "Ewigkeitsklausel",
+                "Sozialstaat",
+                "Republik"
+            ],
+            "check": [false,true,false,false]
+        },
+        {
+            "id":"2",
+            "question": "Welche Staatsform bezeichnet die Herrschaft eines Einzelnen?",
+            "answer": [
+                "Aristokratie",
+                "Demokratie",
+                "Monokratie"
+            ],
+            "check": [false,false,true]
+        },
+        {
+            "id":"3",
+            "question": "Was umfasst die Drei-Elemente-Lehre nach G-Jellinek unter anderem?",
+            "answer": [
+                "Staatsgebiet, Staatsgewalt, Staatsvolk",
+                "Unmittelbare Demokratie",
+                "Sozialstaat"
+            ],
+            "check": [true,false,false]
+        },
+        {
+            "id":"4",
+            "question": "Was ist das Gegenteil eines liberalen Staates?",
+            "answer": [
+                "Totalitärer Staat",
+                "Rechtsstaat",
+                "Sozialstaat"
+            ],
+            "check": [true,false,false]
+        },
+        {
+            "id":"5",
+            "question": "Was wird auch als Judikative bezeichnet?",
+            "answer": [
+                "Gesetzgebung",
+                "Rechtssprechung",
+                "Ausführende"
+            ],
+            "check": [false,true,false]
+        },
+        {
+            "id":"6",
+            "question": "Welches Wahlsystem findet in Deutschland Anwendung?",
+            "answer": [
+                "Mehrheitswahlrecht",
+                "Personalisierte Verhältniswahl",
+                "Verhältniswahlrecht"
+            ],
+            "check": [false,true,false]
+        },
+        {
+            "id":"7",
+            "question": "Was besagt die Indemnität der Bundestagsabgeordneten?",
+            "answer": [
+                "Abgeordnete dürfen wegen einer Handlung nicht strafrechtlich verfolgt werden (Immunität)",
+                "Abgeordnete dürfen wegen einer Abstimmung oder einer Bundestag getätigten Äußerung nicht gerichtlich oder dienstlich verfolgt werden",
+                "Abgeordnete sind nicht in Aufträge und Weisungen gebunden, sondern nur dem eigenen Gewissen unterworfen (freies Mandat)"
+            ],
+            "check": [false,true,false]
+        },
+        {
+            "id":"8",
+            "question": "Wer ist nicht Teil der Bundesregierung?",
+            "answer": [
+                "Bundeskanzler",
+                "Bundesminister",
+                "Bundestagspräsident"
+            ],
+            "check": [false,false,true]
+        },
+        {
+            "id":"9",
+            "question": "Welcher Begriff steht für die Herrschaft des Volkes?",
+            "answer": [
+                "Monoarchie",
+                "Demokratie",
+                "Diktatur"
+            ],
+            "check": [false,true,false]
+        },
+        {
+            "id":"10",
+            "question": "Wofür ist der Bundestag verantwortlich?",
+            "answer": [
+                "Gesetzgebung",
+                "Rechtssprechung",
+                "Vollziehende Gewalt"
+            ],
+            "check": [true,false,false]
+        },
+        {
+            "id":"11",
+            "question": "Die Änderung welcher Artikel im Grundgesetz ist durch die Ewigkeitsklausel in Art. 79 III GG unzulässig?",
+            "answer": [
+                "Art. 1 und 2",
+                "Art. 1 bis 20",
+                "Art. 1 und 20"
+            ],
+            "check": [false,false,true]
+        },
+        {
+            "id":"12",
+            "question": "Was ist kein Grundprinzip des Sozialstaates?",
+            "answer": [
+                "Gewährung eines Existenzminimums",
+                "Sozialgerechte Verteilung öffentlicher Mittel",
+                "Gewinnmaximierung"
+            ],
+            "check": [false,false,true]
+        },
+        {
+            "id":"13",
+            "question": "Was ist kein Wahlrechtsgrundsatz gem. Art. 38 I GG?",
+            "answer": [
+                "Frei",
+                "Unmittelbar",
+                "Mittelbar"
+            ],
+            "check": [false,false,true]
+        },
+        {
+            "id":"14",
+            "question": "Was besagt das freie Mandat?",
+            "answer": [
+                "Art. 38 Abs 1",
+                "Art. 39 Abs 2",
+                "Art. 35 Abs 3"
+                
+            ],
+            "check": [true,false,false]
+        },
+        {
+            "id":"15",
+            "question": "Woraus setzt sich der Bundesrat zusammen?",
+            "answer": [
+                "Aus den Landesregierungen",
+                "Aus den Bundesministern",
+                "Aus den Ausschüssen des Bundestages"
+            ],
+            "check": [true,false,false]
+        },
+        {
+            "id":"16",
+            "question": "Wer gilt als Hüter der Verfassung?",
+            "answer": [
+                "Bundespräsident",
+                "Bundeskanzler",
+                "Bundesverfassungsgericht"
+            ],
+            "check": [false,false,true]
+        },
+        {
+            "id":"17",
+            "question": "Wen bindet eine Entscheidung des Bundesverfassungsgerichtes?",
+            "answer": [
+                "den Bundesrat",
+                "alle Verfassungsorgane",
+                "die Länder"
+            ],
+            "check": [false,true,false]
+        },
+        {
+            "id":"18",
+            "question": "Was zeichnet die Staatsgewalt nicht in erster Linie aus?",
+            "answer": [
+                "Gebietshoheit",
+                "Personalhoheit",
+                "Wirtschaftshoheit"
+            ],
+            "check": [false,false,true]
+        },
+        {
+            "id":"19",
+            "question": "Was besagt die Rechtssicherheit als Grundprinzip des Rechtsstaates?",
+            "answer": [
+                "Gewaltenteilung",
+                "Bindung alles staatlichen Handels an das Gesetz",
+                "Gewährung von Grundrechten"
+            ],
+            "check": [false,true,false]
+        },
+        {
+            "id":"20",
+            "question": "Welche Art von Gesetz gibt es im Rahmen des Gesetzgebungsverfahrens in Deutschland nicht?",
+            "answer": [
+                "Ablehnunggesetz",
+                "Zustimmungsgesetz",
+                "Einspruchsgesetz"
+            ],
+            "check": [true,false,false]
+        },
+        {
+            "id":"21",
+            "question": "Wer ist für die Verkündung beschlossener Gesetze im Bundesgesetzblatt zuständig?",
+            "answer": [
+                "Bundespräsident",
+                "Bundeskanzler",
+                "Bundesminister des Inneren und für Heimat"
+            ],
+            "check": [true,false,false]
+        },
+        {
+            "id":"22",
+            "question": "Wobei handelt es sich nicht um ein Prinzip der Arbeitsweise der Bundesregierung?",
+            "answer": [
+                "Individualprinzip",
+                "Kollektivprinzip",
+                "Kanzlerprinzip",
+                "Ressortprinzip"
+            ],
+            "check": [true,false,false,false]
+        },
+        {
+            "id":"23",
+            "question": "Wer ist das Staatsoberhaupt der Bundesrepublik in Deutschland?",
+            "answer": [
+                "Bundeskanzler",
+                "Bundespräsident",
+                "Bundestagspräsident"
+            ],
+            "check": [false,true,false]
+        },
+        {
+            "id":"24",
+            "question": "Was gilt im Zweifel?",
+            "answer": [
+                "Bundesrecht bricht Landesrecht",
+                "Landesrecht bricht Bundesrecht",
+                "Bundes- und Landesrecht sind gleichwertig"
+            ],
+            "check": [true,false,false]
+        },
+        {
+            "id":"25",
+            "question": "Was ist kein Verfassungsgrundsatz nach Art. 20 GG?",
+            "answer": [
+                "Bundesstaat",
+                "Rechtsstaat",
+                "Republik",
+                "Personalisierte Verhältniswahl"
+            ],
+            "check": [false,false,true]
+        },
+        {
+            "id":"26",
+            "question": "Was besagt der Vorrang des Gesetzes?",
+            "answer": [
+                "Der Staat darf bei seinen Handlichgen nicht gegen gültige Rechtsnormen verstoßen",
+                "Der Staat darf nicht hoheitlich handeln, wenn er hierfür keine Ermächtigung aufgrund einer Rechtsnorm hat"
+            ],
+            "check": [true,false]
+        },
+        {
+            "id":"27",
+            "question": "Was besagt der Vorbehalt des Gesetzes?",
+            "answer": [
+                "Der Staat darf bei seinen Handlichgen nicht gegen gültige Rechtsnormen verstoßen",
+                "Der Staat darf nicht hoheitlich handeln, wenn er hierfür keine Ermächtigung aufgrund einer Rechtsnorm hat"
+            ],
+            "check": [false,true]
+        },
+        {
+            "id":"28",
+            "question": "Was besagt der Verfassungsgrundsatz Solzialstaat?",
+            "answer": [
+                "Sozialgerechter",
+                "Verteilung öffentlicher Mittel",
+                "Existenzminimum"
+            ],
+            "check": [true,false,false]
+        },
+        {
+            "id":"29",
+            "question": "Wer schlägt im Bundestag den Kandidaten für das Amt des Bundeskanzlers vor und ernennt den Bundeskanzler im Nachhinein?",
+            "answer": [
+                "Bundespräsident",
+                "der bisherige Bundeskanzler",
+                "der Bundestagspräsident"
+            ],
+            "check": [true,false,false]
+        },
+        {
+            "id":"30",
+            "question": "Wer kann dem Bundestag nicht einen Gesetzesentwurf vorlegen?",
+            "answer": [
+                "Bundesregierung",
+                "Bundesrat",
+                "Mitte des Bundestages",
+                "Bundesverfassungsgericht"
+            ],
+            "check": [false,false,false,true]
+        }       
+    ]
+}
