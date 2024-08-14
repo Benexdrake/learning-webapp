@@ -3,6 +3,7 @@ import recht from '@/public/RechtlicheKompetenzen.json'
 import betrieb from '@/public/BetriebsFinanzwirtschaftlicheKompetenz.json'
 import uebung1 from '@/public/Übungsfragen_Strafrecht.json'
 import multi from '@/public/MultiTest.json'
+import linux from '@/public/linux.json'
 
 
 export default function handler( req: NextApiRequest, res: NextApiResponse)
@@ -19,7 +20,7 @@ export default function handler( req: NextApiRequest, res: NextApiResponse)
             res.status(200).json(uebung1);
             break;
         case "4":
-            res.status(200).json(multi);
+            res.status(200).json(linux);
             break;
         default:
             res.status(200).json(recht);
