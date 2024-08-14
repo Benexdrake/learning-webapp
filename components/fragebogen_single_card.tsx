@@ -7,8 +7,6 @@ export default function FragebogenSingleCard(params:any)
 
     let [borderColor, setBorderColor] = useState('var(--color1)');
 
-    
-
     const handleClick = (value:any) => {
 
         if(question.check[value.target.value])
