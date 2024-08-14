@@ -148,7 +148,7 @@
             },
             {
               "id": "25",
-              "question": "Welcher Befehl zeigt die IP-Adresse des Systems an?",
+              "question": "Welcher Befehl zeigt die IP-Adresse des Systems an? - Multi",
               "answer": ["ifconfig", "ip addr show", "netstat", "hostname -I"],
               "check": [true, true, false, false]
             },
