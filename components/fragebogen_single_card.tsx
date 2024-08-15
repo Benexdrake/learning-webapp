@@ -34,7 +34,7 @@ export default function FragebogenSingleCard(params:any)
             </h3>
             {question.answer.map((x:any, i:any) => {
                 return (
-                    <div className={styles.card_answer_block} key={question.answer[i] +  question.id} style={{backgroundColor:i%2?'var(--color4)':'var(--color3)'}}>
+                    <div className={styles.card_answer_block} key={question.answer[i] +  question.id} style={{backgroundColor:i%2?'var(--color2)':'var(--color1)'}}>
                         <label>
                             <input type='radio' name={question.id} onClick={handleClick} value={i} className={styles.checkmark}/>
                             <span className={styles.card_answer}>{x}</span>
