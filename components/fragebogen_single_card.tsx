@@ -1,5 +1,6 @@
 import styles from '@/styles/fragebogencard.module.css'
-import { useState } from 'react';
+import { EventHandler, useState } from 'react';
+import React, { useRef } from 'react';
 
 export default function FragebogenSingleCard(params:any)
 {
@@ -7,14 +8,19 @@ export default function FragebogenSingleCard(params:any)
 
     let [borderColor, setBorderColor] = useState('var(--color1)');
 
-    const handleClick = (value:any) => {
+    const handleRadioClick = (value:any) => {
 
-        if(question.check[value.target.value])
+        let id = `radio-${question.id}-${i}`
+        if(question.check[value])
         {
             setBorderColor('green')
         }
         else
             setBorderColor('red')
+    }
+
+    const handleDivClick = (event:React.MouseEvent<HTMLButtonElement>) => {
+        console.log(event)
     }
 
     let i = 0
@@ -34,13 +40,18 @@ export default function FragebogenSingleCard(params:any)
             </h3>
             {question.answer.map((x:any, i:any) => {
                 return (
-                    <div className={styles.card_answer_block} key={question.answer[i] +  question.id} style={{backgroundColor:i%2?'var(--color2)':'var(--color1)'}}>
-                        <label>
-                            <input type='radio' name={question.id} onClick={handleClick} value={i} className={styles.checkmark}/>
+                    <label key={question.answer[i] +  question.id}>
+                        <div className={styles.card_answer_block}  style={{backgroundColor:i%2?'var(--color2)':'var(--color1)'}} onClick={() => handleDivClick}>
+                            <input 
+                            id = {`radio-${question.id}-${i}`}
+                            type='radio' 
+                            name={question.id} 
+                            onClick={() => handleRadioClick(i)} 
+                            className={styles.checkmark}/>
                             <span className={styles.card_answer}>{x}</span>
                             <br />
-                        </label>
-                    </div>
+                        </div>
+                    </label>
                 )
             })}
             </div>
