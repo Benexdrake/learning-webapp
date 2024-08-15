@@ -1,198 +1,1606 @@
 {
-	"thema": "Linux Essentials",
-    "type":"single",
-      "questions": [
-            {
-              "id": "1",
-              "question": "Welcher Befehl zeigt den Inhalt eines Verzeichnisses an?",
-              "answer": ["dir", "ls", "list", "show"],
-              "check": [false, true, false, false]
-            },
-            {
-              "id": "2",
-              "question": "Wie erstellt man ein neues Verzeichnis?",
-              "answer": ["mkdir", "dircreate", "newdir", "makedir"],
-              "check": [true, false, false, false]
-            },
-            {
-              "id": "3",
-              "question": "Welcher Befehl zeigt die aktuelle Verzeichnisstruktur an?",
-              "answer": ["pwd", "cwd", "dir", "ls"],
-              "check": [true, false, false, false]
-            },
-            {
-              "id": "4",
-              "question": "Wie listet man alle Dateien inklusive versteckter Dateien auf?",
-              "answer": ["ls -l", "ls --all", "ls -h", "ls -a"],
-              "check": [false, false, false, true]
-            },
-            {
-              "id": "5",
-              "question": "Wie kopiert man eine Datei?",
-              "answer": ["duplicate", "cp", "mv", "copy"],
-              "check": [false, true, false, false]
-            },
-            {
-              "id": "6",
-              "question": "Wie löscht man eine Datei?",
-              "answer": ["rm", "delete", "remove", "erase"],
-              "check": [true, false, false, false]
-            },
-            {
-              "id": "7",
-              "question": "Welcher Befehl wird verwendet, um einen Befehl mit Root-Rechten auszuführen?",
-              "answer": ["sudo", "su", "root", "runas"],
-              "check": [true, false, false, false]
-            },
-            {
-              "id": "8",
-              "question": "Wie überprüft man die aktuelle IP-Adresse?",
-              "answer": ["ipconfig", "netstat", "ifconfig", "ip addr"],
-              "check": [false, false, true, false]
-            },
-            {
-              "id": "9",
-              "question": "Welcher Befehl zeigt die Speicherbelegung an?",
-              "answer": ["df", "du", "free", "lsblk"],
-              "check": [false, false, true, false]
-            },
-            {
-              "id": "10",
-              "question": "Wie installiert man ein Paket auf Debian-basierten Systemen?",
-              "answer": ["pacman -S", "apt-get install", "yum install", "installpkg"],
-              "check": [false, true, false, false]
-            },
-            {
-              "id": "11",
-              "question": "Wie zeigt man alle laufenden Prozesse an?",
-              "answer": ["top", "ps aux", "htop", "lsproc"],
-              "check": [false, true, false, false]
-            },
-            {
-              "id": "12",
-              "question": "Wie stoppt man einen laufenden Dienst?",
-              "answer": ["daemon stop", "stop", "systemctl stop", "service stop"],
-              "check": [false, false, true, false]
-            },
-            {
-              "id": "13",
-              "question": "Wie setzt man den Hostnamen des Systems?",
-              "answer": ["sethostname", "hostnamectl set-hostname", "hostname -s", "sysctl sethostname"],
-              "check": [false, true, false, false]
-            },
-            {
-              "id": "14",
-              "question": "Wie startet man einen Dienst neu?",
-              "answer": ["service restart", "sysctl restart", "systemctl restart", "daemon restart"],
-              "check": [false, false, true, false]
-            },
-            {
-              "id": "15",
-              "question": "Wie überprüft man den verfügbaren Speicher im System?",
-              "answer": ["free -h", "df -h", "du -h", "lsblk -h"],
-              "check": [true, false, false, false]
-            },
-            {
-              "id": "16",
-              "question": "Wie zeigt man die Kernel-Log-Einträge an?",
-              "answer": ["journalctl -k", "logread -k", "syslog -k", "dmesg"],
-              "check": [true, false, false, false]
-            },
-            {
-              "id": "17",
-              "question": "Wie beendet man alle Prozesse eines Benutzers?",
-              "answer": ["pkill -u", "killall", "terminateall", "endall"],
-              "check": [true, false, false, false]
-            },
-            {
-              "id": "18",
-              "question": "Wie erstellt man eine symbolische Verknüpfung?",
-              "answer": ["ln -s", "ln -l", "link", "symlink"],
-              "check": [true, false, false, false]
-            },
-            {
-              "id": "19",
-              "question": "Wie wechselt man den Eigentümer einer Datei?",
-              "answer": ["chmod", "chgrp", "setown", "chown"],
-              "check": [false, false, false, true]
-            },
-            {
-              "id": "20",
-              "question": "Wie zeigt man alle laufenden Dienste an?",
-              "answer": ["service --status-all", "systemctl list-units --type=service", "ps aux", "systemctl status"],
-              "check": [false, true, false, false]
-            },
-            {
-              "id": "21",
-              "question": "Wie installiert man ein Programm aus dem Quellcode?",
-              "answer": ["make install", "apt-get install", "./configure && make && make install", "yum install"],
-              "check": [false, false, true, false]
-            },
-            {
-              "id": "22",
-              "question": "Welcher Befehl wird verwendet, um eine Datei anzuzeigen?",
-              "answer": ["cat", "show", "view", "display"],
-              "check": [true, false, false, false]
-            },
-            {
-              "id": "23",
-              "question": "Wie zeigt man die Größe einer Datei an?",
-              "answer": ["ls -lh", "stat -s", "du -h", "df -h"],
-              "check": [true, false, false, false]
-            },
-            {
-              "id": "24",
-              "question": "Wie durchsucht man Dateien nach einem bestimmten Text?",
-              "answer": ["search", "grep", "locate", "find"],
-              "check": [false, true, false, false]
-            },
-            {
-              "id": "25",
-              "question": "Welcher Befehl zeigt die IP-Adresse des Systems an? - Multi",
-              "answer": ["ifconfig", "ip addr show", "netstat", "hostname -I"],
-              "check": [true, true, false, false]
-            },
-            {
-              "id": "26",
-              "question": "Wie fügt man einen Benutzer zur Gruppe 'sudo' hinzu?",
-              "answer": ["usermod -aG sudo", "addgroup sudo", "gpasswd -a sudo", "groupadd sudo"],
-              "check": [true, false, false, false]
-            },
-            {
-              "id": "27",
-              "question": "Wie überprüft man die Systeminformationen?",
-              "answer": ["sysinfo", "uname -a", "dmesg", "lsb_release -a"],
-              "check": [false, true, false, false]
-            },
-            {
-              "id": "28",
-              "question": "Wie überprüft man die verfügbaren Paketaktualisierungen?",
-              "answer": ["apt-get upgrade", "yum upgrade", "pacman -Syu", "dnf upgrade"],
-              "check": [true, false, false, false]
-            },
-            {
-              "id": "29",
-              "question": "Welcher Befehl zeigt die Netzwerkkonfiguration an?",
-              "answer": ["netstat", "ip addr show", "ifconfig", "ipconfig"],
-              "check": [false, true, false, false]
-            },
-            {
-              "id": "30",
-              "question": "Wie überwacht man die Systemauslastung in Echtzeit?",
-              "answer": ["free", "htop", "vmstat", "top"],
-              "check": [false, false, false, true]
-            },
-            {
-              "id": "31",
-              "question": "Welcher Befehl wird verwendet, um eine Datei in das Verzeichnis '/home/user/' zu kopieren?",
-              "answer": ["cp <Datei> /home/user/", "mv <Datei> /home/user/", "copy <Datei> /home/user/", "transfer <Datei> /home/user/"],
-              "check": [true, false, false, false]
-            },
-            {
-              "id": "32",
-              "question": "Wie wechselt man in das Home-Verzeichnis des aktuellen Benutzers?",
-              "answer": ["cd /", "cd ~", "cd /home", "cd .."],
-              "check": [false, true, false, false]
-            }
+  "thema": "Linux Essentials",
+  "type": "single",
+  "questions": [
+    {
+      "id": "1",
+      "question": "Welcher Befehl zeigt den Inhalt eines Verzeichnisses an?",
+      "answer": [
+        "dir",
+        "ls",
+        "list",
+        "show"
+      ],
+      "check": [
+        false,
+        true,
+        false,
+        false
       ]
+    },
+    {
+      "id": "2",
+      "question": "Wie erstellt man ein neues Verzeichnis?",
+      "answer": [
+        "mkdir",
+        "dircreate",
+        "newdir",
+        "makedir"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Welcher Befehl zeigt die aktuelle Verzeichnisstruktur an?",
+      "answer": [
+        "pwd",
+        "cwd",
+        "dir",
+        "ls"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Wie listet man alle Dateien inklusive versteckter Dateien auf?",
+      "answer": [
+        "ls -l",
+        "ls --all",
+        "ls -h",
+        "ls -a"
+      ],
+      "check": [
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Wie kopiert man eine Datei?",
+      "answer": [
+        "duplicate",
+        "cp",
+        "mv",
+        "copy"
+      ],
+      "check": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Wie löscht man eine Datei?",
+      "answer": [
+        "rm",
+        "delete",
+        "remove",
+        "erase"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Welcher Befehl wird verwendet, um einen Befehl mit Root-Rechten auszuführen?",
+      "answer": [
+        "sudo",
+        "su",
+        "root",
+        "runas"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Wie überprüft man die aktuelle IP-Adresse?",
+      "answer": [
+        "ipconfig",
+        "netstat",
+        "ifconfig",
+        "ip addr"
+      ],
+      "check": [
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Welcher Befehl zeigt die Speicherbelegung an?",
+      "answer": [
+        "df",
+        "du",
+        "free",
+        "lsblk"
+      ],
+      "check": [
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Wie installiert man ein Paket auf Debian-basierten Systemen?",
+      "answer": [
+        "pacman -S",
+        "apt-get install",
+        "yum install",
+        "installpkg"
+      ],
+      "check": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "11",
+      "question": "Wie zeigt man alle laufenden Prozesse an?",
+      "answer": [
+        "top",
+        "ps aux",
+        "htop",
+        "lsproc"
+      ],
+      "check": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "12",
+      "question": "Wie stoppt man einen laufenden Dienst?",
+      "answer": [
+        "daemon stop",
+        "stop",
+        "systemctl stop",
+        "service stop"
+      ],
+      "check": [
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "13",
+      "question": "Wie setzt man den Hostnamen des Systems?",
+      "answer": [
+        "sethostname",
+        "hostnamectl set-hostname",
+        "hostname -s",
+        "sysctl sethostname"
+      ],
+      "check": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "14",
+      "question": "Wie startet man einen Dienst neu?",
+      "answer": [
+        "service restart",
+        "sysctl restart",
+        "systemctl restart",
+        "daemon restart"
+      ],
+      "check": [
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "15",
+      "question": "Wie überprüft man den verfügbaren Speicher im System?",
+      "answer": [
+        "free -h",
+        "df -h",
+        "du -h",
+        "lsblk -h"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "16",
+      "question": "Wie zeigt man die Kernel-Log-Einträge an?",
+      "answer": [
+        "journalctl -k",
+        "logread -k",
+        "syslog -k",
+        "dmesg"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "17",
+      "question": "Wie beendet man alle Prozesse eines Benutzers?",
+      "answer": [
+        "pkill -u",
+        "killall",
+        "terminateall",
+        "endall"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "18",
+      "question": "Wie erstellt man eine symbolische Verknüpfung?",
+      "answer": [
+        "ln -s",
+        "ln -l",
+        "link",
+        "symlink"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "19",
+      "question": "Wie wechselt man den Eigentümer einer Datei?",
+      "answer": [
+        "chmod",
+        "chgrp",
+        "setown",
+        "chown"
+      ],
+      "check": [
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "20",
+      "question": "Wie zeigt man alle laufenden Dienste an?",
+      "answer": [
+        "service --status-all",
+        "systemctl list-units --type=service",
+        "ps aux",
+        "systemctl status"
+      ],
+      "check": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "21",
+      "question": "Wie installiert man ein Programm aus dem Quellcode?",
+      "answer": [
+        "make install",
+        "apt-get install",
+        "./configure && make && make install",
+        "yum install"
+      ],
+      "check": [
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "22",
+      "question": "Welcher Befehl wird verwendet, um eine Datei anzuzeigen?",
+      "answer": [
+        "cat",
+        "show",
+        "view",
+        "display"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "23",
+      "question": "Wie zeigt man die Größe einer Datei an?",
+      "answer": [
+        "ls -lh",
+        "stat -s",
+        "du -h",
+        "df -h"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "24",
+      "question": "Wie durchsucht man Dateien nach einem bestimmten Text?",
+      "answer": [
+        "search",
+        "grep",
+        "locate",
+        "find"
+      ],
+      "check": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "25",
+      "question": "Welcher Befehl zeigt die IP-Adresse des Systems an?",
+      "answer": [
+        "ifconfig",
+        "ip addr show",
+        "netstat",
+        "hostname -I"
+      ],
+      "check": [
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "26",
+      "question": "Wie fügt man einen Benutzer zur Gruppe 'sudo' hinzu?",
+      "answer": [
+        "usermod -aG sudo",
+        "addgroup sudo",
+        "gpasswd -a sudo",
+        "groupadd sudo"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "27",
+      "question": "Wie überprüft man die Systeminformationen?",
+      "answer": [
+        "sysinfo",
+        "uname -a",
+        "dmesg",
+        "lsb_release -a"
+      ],
+      "check": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "28",
+      "question": "Wie überprüft man die verfügbaren Paketaktualisierungen?",
+      "answer": [
+        "apt-get upgrade",
+        "yum upgrade",
+        "pacman -Syu",
+        "dnf upgrade"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "29",
+      "question": "Welcher Befehl zeigt die Netzwerkkonfiguration an?",
+      "answer": [
+        "netstat",
+        "ip addr show",
+        "ifconfig",
+        "ipconfig"
+      ],
+      "check": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "30",
+      "question": "Wie überwacht man die Systemauslastung in Echtzeit?",
+      "answer": [
+        "free",
+        "htop",
+        "vmstat",
+        "top"
+      ],
+      "check": [
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "31",
+      "question": "Welcher Befehl wird verwendet, um eine Datei in das Verzeichnis '/home/user/' zu kopieren?",
+      "answer": [
+        "cp <Datei> /home/user/",
+        "mv <Datei> /home/user/",
+        "copy <Datei> /home/user/",
+        "transfer <Datei> /home/user/"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "32",
+      "question": "Wie wechselt man in das Home-Verzeichnis des aktuellen Benutzers?",
+      "answer": [
+        "cd /",
+        "cd ~",
+        "cd /home",
+        "cd .."
+      ],
+      "check": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "33",
+      "question": "Wie erstellt man eine Datei mit dem Namen 'testfile.txt'?",
+      "answer": [
+        "make testfile.txt",
+        "create testfile.txt",
+        "newfile testfile.txt",
+        "touch testfile.txt"
+      ],
+      "check": [
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "34",
+      "question": "Wie sucht man nach einer Datei mit dem Namen 'example.txt'?",
+      "answer": [
+        "locate example.txt",
+        "grep example.txt",
+        "find / -name example.txt",
+        "search example.txt"
+      ],
+      "check": [
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "35",
+      "question": "Welcher Befehl zeigt den freien Speicherplatz auf den Festplatten an?",
+      "answer": [
+        "free -h",
+        "lsblk",
+        "df -h",
+        "du -h"
+      ],
+      "check": [
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "36",
+      "question": "Wie zeigt man die letzte Zeile einer Datei an?",
+      "answer": [
+        "cat",
+        "tail -n 1",
+        "less",
+        "head -n 1"
+      ],
+      "check": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "37",
+      "question": "Wie zeigt man die ersten 10 Zeilen einer Datei an?",
+      "answer": [
+        "more",
+        "tail -n 10",
+        "less",
+        "head -n 10"
+      ],
+      "check": [
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "38",
+      "question": "Wie ändert man die Berechtigungen einer Datei auf 755?",
+      "answer": [
+        "chmod 644",
+        "chmod 755",
+        "chown 755",
+        "chmod 777"
+      ],
+      "check": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "39",
+      "question": "Wie zeigt man die Anzahl der Dateien und Verzeichnisse in einem Verzeichnis?",
+      "answer": [
+        "df -i",
+        "find | wc -l",
+        "du -a",
+        "ls | wc -l"
+      ],
+      "check": [
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "40",
+      "question": "Wie zeigt man den letzten System-Log-Eintrag an?",
+      "answer": [
+        "journalctl -n 1",
+        "dmesg | tail",
+        "tail -n 1 /var/log/syslog",
+        "cat /var/log/messages"
+      ],
+      "check": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "41",
+      "question": "Welcher Befehl zeigt die aktuelle Uhrzeit und das Datum an?",
+      "answer": [
+        "datetime",
+        "clock",
+        "time",
+        "date"
+      ],
+      "check": [
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "42",
+      "question": "Wie überprüft man, ob ein Dienst läuft?",
+      "answer": [
+        "service check",
+        "ps aux | grep",
+        "systemctl is-active",
+        "service status"
+      ],
+      "check": [
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "43",
+      "question": "Wie aktualisiert man die Paketquellen auf einem Debian-basierten System?",
+      "answer": [
+        "apt-get update",
+        "apt-get refresh",
+        "apt refresh",
+        "apt update"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "44",
+      "question": "Wie erstellt man ein Archiv einer Datei oder eines Verzeichnisses?",
+      "answer": [
+        "zip",
+        "tar -czf",
+        "archive",
+        "tar -xf"
+      ],
+      "check": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "45",
+      "question": "Wie zeigt man den Inhalt eines Tar-Archivs an?",
+      "answer": [
+        "tar -xf",
+        "tar -tf",
+        "zip -l",
+        "ls"
+      ],
+      "check": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "46",
+      "question": "Welcher Befehl wird verwendet, um eine Datei in ein Zip-Archiv zu packen?",
+      "answer": [
+        "bzip2",
+        "tar",
+        "gzip",
+        "zip"
+      ],
+      "check": [
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "47",
+      "question": "Wie zeigt man die laufenden Netzwerkverbindungen an?",
+      "answer": [
+        "ss",
+        "ip addr",
+        "netstat",
+        "ifconfig"
+      ],
+      "check": [
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "48",
+      "question": "Wie fügt man einen neuen Benutzer hinzu?",
+      "answer": [
+        "useradd",
+        "adduser",
+        "newuser",
+        "createuser"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "49",
+      "question": "Welcher Befehl zeigt die Anzahl der verfügbaren und verwendeten Inodes an?",
+      "answer": [
+        "df -i",
+        "du -i",
+        "ls -i",
+        "stat -i"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "50",
+      "question": "Wie zeigt man die Systemlast über die letzten 1, 5 und 15 Minuten an?",
+      "answer": [
+        "loadavg",
+        "vmstat",
+        "uptime",
+        "top"
+      ],
+      "check": [
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "51",
+      "question": "Wie installiert man ein RPM-Paket auf einem RPM-basierten System?",
+      "answer": [
+        "yum install",
+        "rpm -i",
+        "dnf install",
+        "rpm install"
+      ],
+      "check": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "52",
+      "question": "Wie erstellt man eine neue Datei mit Inhalt aus einer bestehenden Datei?",
+      "answer": [
+        "touch",
+        "cp",
+        "cat > newfile",
+        "mv"
+      ],
+      "check": [
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "53",
+      "question": "Wie zeigt man die verfügbaren Festplatten an?",
+      "answer": [
+        "blkid",
+        "fdisk -l",
+        "lsblk",
+        "df -h"
+      ],
+      "check": [
+        false,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "54",
+      "question": "Wie überprüft man, ob eine Datei existiert?",
+      "answer": [
+        "find",
+        "test -e",
+        "ls",
+        "check -f"
+      ],
+      "check": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "55",
+      "question": "Wie erstellt man ein leeres Verzeichnis?",
+      "answer": [
+        "newdir",
+        "touch",
+        "mkdir",
+        "create"
+      ],
+      "check": [
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "56",
+      "question": "Welcher Befehl zeigt die Benutzer-ID des aktuellen Benutzers an?",
+      "answer": [
+        "whoami",
+        "id -u",
+        "uid",
+        "user"
+      ],
+      "check": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "57",
+      "question": "Wie zeigt man die letzten 10 Zeilen eines Logfiles an?",
+      "answer": [
+        "more",
+        "cat",
+        "head -n 10",
+        "tail -n 10"
+      ],
+      "check": [
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "58",
+      "question": "Welcher Befehl zeigt die Dateien und Verzeichnisse in einer Baumstruktur an?",
+      "answer": [
+        "ls -R",
+        "tree",
+        "find",
+        "ls -l"
+      ],
+      "check": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "59",
+      "question": "Wie zeigt man die aktuelle Shell an?",
+      "answer": [
+        "shell",
+        "ps -p $$",
+        "get-shell",
+        "echo $SHELL"
+      ],
+      "check": [
+        false,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "60",
+      "question": "Welcher Befehl zeigt die zuletzt geänderten Dateien an?",
+      "answer": [
+        "du -a",
+        "ls -lt",
+        "find / -mtime",
+        "stat"
+      ],
+      "check": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "61",
+      "question": "Wie testet man, ob eine Datei eine bestimmte Größe hat?",
+      "answer": [
+        "test -s",
+        "check -size",
+        "ls -lh",
+        "du -h"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "62",
+      "question": "Wie erstellt man ein Backup einer Datei?",
+      "answer": [
+        "cp <Datei> <Backup>",
+        "backup <Datei>",
+        "mv <Datei> <Backup>",
+        "tar -cf"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "63",
+      "question": "Wie zeigt man die Umgebungsvariablen an?",
+      "answer": [
+        "printenv",
+        "env",
+        "showenv",
+        "variables"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "64",
+      "question": "Wie listet man alle laufenden Netzwerkverbindungen auf?",
+      "answer": [
+        "netstat",
+        "ss",
+        "ifconfig",
+        "ip addr"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "65",
+      "question": "Welcher Befehl zeigt den Speicherverbrauch eines Prozesses an?",
+      "answer": [
+        "ps aux",
+        "top",
+        "free -m",
+        "vmstat"
+      ],
+      "check": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "66",
+      "question": "Wie installiert man Software auf einem Ubuntu-System?",
+      "answer": [
+        "apt-get install",
+        "yum install",
+        "pacman -S",
+        "dnf install"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "67",
+      "question": "Welcher Befehl zeigt die Größe einer Datei an?",
+      "answer": [
+        "du -sh",
+        "ls -lh",
+        "df -h",
+        "stat -s"
+      ],
+      "check": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "68",
+      "question": "Wie zeigt man den Kernel-Namen und die Version des aktuellen Systems an?",
+      "answer": [
+        "uname -r",
+        "uname -a",
+        "uname -v",
+        "uname -s"
+      ],
+      "check": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "69",
+      "question": "Wie zeigt man die Prozessliste sortiert nach CPU-Auslastung an?",
+      "answer": [
+        "ps aux --sort=-%cpu",
+        "top",
+        "htop",
+        "ps aux --sort=-%mem"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "70",
+      "question": "Wie installiert man ein Debian-Paket?",
+      "answer": [
+        "dpkg -i",
+        "apt-get install",
+        "apt install",
+        "rpm -i"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "71",
+      "question": "Wie zeigt man die Details zu einer Datei oder einem Verzeichnis an?",
+      "answer": [
+        "ls -lh",
+        "ls -l",
+        "ls -a",
+        "ls -d"
+      ],
+      "check": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "72",
+      "question": "Welcher Befehl zeigt die verfügbaren und belegten Festplattenpartitionen an?",
+      "answer": [
+        "lsblk",
+        "fdisk -l",
+        "df -h",
+        "parted"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "73",
+      "question": "Wie zeigt man den Status eines Dienstes auf einem Linux-System an?",
+      "answer": [
+        "systemctl status",
+        "service status",
+        "ps aux | grep",
+        "check-service"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "74",
+      "question": "Wie zeigt man den Inhalt einer Datei im Terminal an?",
+      "answer": [
+        "cat",
+        "less",
+        "more",
+        "echo"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "75",
+      "question": "Welcher Befehl zeigt den Hostnamen des aktuellen Systems an?",
+      "answer": [
+        "hostname",
+        "uname -n",
+        "echo $HOSTNAME",
+        "uname -r"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "76",
+      "question": "Wie wechselt man in das Root-Verzeichnis?",
+      "answer": [
+        "cd /root",
+        "cd ..",
+        "cd /",
+        "cd ~"
+      ],
+      "check": [
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "77",
+      "question": "Wie zeigt man die IP-Adresse des aktuellen Systems an?",
+      "answer": [
+        "ip addr show",
+        "ifconfig",
+        "netstat -rn",
+        "ipconfig"
+      ],
+      "check": [
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "78",
+      "question": "Wie zeigt man den Inhalt eines ZIP-Archivs an?",
+      "answer": [
+        "unzip -l",
+        "zip -v",
+        "zip -l",
+        "unzip"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "79",
+      "question": "Wie löscht man eine Datei?",
+      "answer": [
+        "remove",
+        "delete",
+        "rm",
+        "trash"
+      ],
+      "check": [
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "80",
+      "question": "Wie zeigt man die aktiven Netzwerkverbindungen an?",
+      "answer": [
+        "netstat",
+        "ss",
+        "ifconfig",
+        "ip addr"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "81",
+      "question": "Wie erstellt man ein neues Verzeichnis?",
+      "answer": [
+        "mkdir",
+        "newdir",
+        "touch",
+        "create"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "82",
+      "question": "Wie zeigt man die Zugriffsrechte einer Datei an?",
+      "answer": [
+        "ls -l",
+        "chmod",
+        "chown",
+        "stat"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "83",
+      "question": "Wie zeigt man die Prozesse, die einen bestimmten Port verwenden, an?",
+      "answer": [
+        "netstat -tuln",
+        "lsof -i :PORT",
+        "ss -tuln",
+        "ps aux | grep PORT"
+      ],
+      "check": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "84",
+      "question": "Wie zeigt man die Speichernutzung an?",
+      "answer": [
+        "free -h",
+        "df -h",
+        "top",
+        "vmstat"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "85",
+      "question": "Wie beendet man einen laufenden Prozess?",
+      "answer": [
+        "kill",
+        "terminate",
+        "stop",
+        "end"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "86",
+      "question": "Wie zeigt man die letzten 5 Zeilen eines Logfiles an?",
+      "answer": [
+        "tail -n 5",
+        "head -n 5",
+        "cat",
+        "more"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "87",
+      "question": "Wie ändert man das Passwort eines Benutzers?",
+      "answer": [
+        "passwd",
+        "password",
+        "change-pass",
+        "set-password"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "88",
+      "question": "Wie zeigt man den verwendeten Port einer Anwendung an?",
+      "answer": [
+        "netstat -tuln",
+        "ss -tuln",
+        "lsof -i :PORT",
+        "ps aux | grep PORT"
+      ],
+      "check": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "89",
+      "question": "Wie zeigt man den Status aller Dienste an?",
+      "answer": [
+        "service --status-all",
+        "systemctl list-units",
+        "service status",
+        "ps aux | grep service"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "90",
+      "question": "Wie zeigt man den Pfad einer Datei an?",
+      "answer": [
+        "pwd",
+        "realpath",
+        "find",
+        "locate"
+      ],
+      "check": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "91",
+      "question": "Wie erstellt man eine symbolische Verknüpfung?",
+      "answer": [
+        "ln -s",
+        "symlink",
+        "link",
+        "ln"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "92",
+      "question": "Wie zeigt man den Status eines Netzwerks an?",
+      "answer": [
+        "ip a",
+        "netstat -i",
+        "ifconfig",
+        "ping"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "93",
+      "question": "Wie zeigt man den Hostnamen des aktuellen Systems an?",
+      "answer": [
+        "hostname",
+        "uname -n",
+        "uname -s",
+        "uname -r"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "94",
+      "question": "Wie zeigt man die Benutzergruppen an, zu denen ein Benutzer gehört?",
+      "answer": [
+        "groups",
+        "id -Gn",
+        "whoami",
+        "getent group"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "95",
+      "question": "Wie zeigt man die Auslastung der CPU an?",
+      "answer": [
+        "uptime",
+        "top",
+        "htop",
+        "mpstat"
+      ],
+      "check": [
+        false,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "96",
+      "question": "Wie zeigt man die Protokolldateien des Systems an?",
+      "answer": [
+        "cat /var/log/syslog",
+        "tail -f /var/log/messages",
+        "journalctl",
+        "ls /var/log"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "97",
+      "question": "Wie zeigt man den verfügbaren Speicherplatz an?",
+      "answer": [
+        "df -h",
+        "du -sh",
+        "lsblk",
+        "free -h"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "98",
+      "question": "Wie zeigt man die Kernel-Logs an?",
+      "answer": [
+        "dmesg",
+        "journalctl -k",
+        "tail -f /var/log/kern.log",
+        "cat /proc/kmsg"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "99",
+      "question": "Wie zeigt man die geöffneten Dateien eines Prozesses an?",
+      "answer": [
+        "lsof -p",
+        "ps aux",
+        "top",
+        "netstat"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "100",
+      "question": "Wie zeigt man die Systeminformationen an?",
+      "answer": [
+        "uname -a",
+        "uname -r",
+        "uname -s",
+        "uname -v"
+      ],
+      "check": [
+        true,
+        false,
+        false,
+        false
+      ]
+    }
+  ]
 }

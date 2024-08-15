@@ -17,11 +17,20 @@ export default function FragebogenSingleCard(params:any)
             setBorderColor('red')
     }
 
+    let i = 0
+    question.check.map((x:any) => {
+        if (x == true)
+            i++
+    })
+
+    let multi = " Richtige Antworten: " + i
+
+
     return (
         <div className={styles.card} style={{borderColor:borderColor}}>
             <div>            
             <h3 className={styles.card_title}>
-                {question.question}
+                {question.question + multi}
             </h3>
             {question.answer.map((x:any, i:any) => {
                 return (
